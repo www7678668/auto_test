@@ -1,0 +1,3 @@
+2023-02-18 14:46:34 INFO *********开始启动APP*********
+2023-02-18 14:46:34 INFO 手机参数：{'platformName': 'android', 'deviceName': 'xiaomi', 'automationName': 'UiAutomator2', 'appPackage': 'com.inkr.sport', 'appActivity': 'com.inkr.sport.activities.SplashActivity'}
+2023-02-18 14:46:36 WARNING Retrying (Retry(total=2, connect=None, read=None, redirect=None, status=None)) after connection broken by 'NewConnectionError('<urllib3.connection.HTTPConnection object at 0x000001AFDE28EEC8>: Failed to establish a new connection: [WinError 10061] 由于目标计算机积极拒绝，无法连接。')': /wd/hub/session

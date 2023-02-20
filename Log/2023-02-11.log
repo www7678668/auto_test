@@ -1,0 +1,96 @@
+2023-02-11 10:23:42 INFO 开始启动APP
+2023-02-11 10:23:42 INFO 手机参数：{'platformName': 'android', 'deviceName': 'xiaomi', 'automationName': 'UiAutomator2', 'appPackage': 'com.inkr.sport', 'appActivity': 'com.inkr.sport.activities.SplashActivity'}
+2023-02-11 10:23:53 INFO 启动成功
+2023-02-11 10:23:56 INFO 开始启动APP
+2023-02-11 10:23:56 INFO 手机参数：{'platformName': 'android', 'deviceName': 'xiaomi', 'automationName': 'UiAutomator2', 'appPackage': 'com.inkr.sport', 'appActivity': 'com.inkr.sport.activities.SplashActivity'}
+2023-02-11 10:24:05 INFO 启动成功
+2023-02-11 10:27:43 INFO 开始启动APP
+2023-02-11 10:27:43 INFO 手机参数：{'platformName': 'android', 'deviceName': 'xiaomi', 'automationName': 'UiAutomator2', 'appPackage': 'com.inkr.sport', 'appActivity': 'com.inkr.sport.activities.SplashActivity'}
+2023-02-11 10:27:53 INFO 启动成功
+2023-02-11 10:29:53 INFO 开始启动APP
+2023-02-11 10:29:53 INFO 手机参数：{'platformName': 'android', 'deviceName': 'xiaomi', 'automationName': 'UiAutomator2', 'appPackage': 'com.inkr.sport', 'appActivity': 'com.inkr.sport.activities.SplashActivity'}
+2023-02-11 10:30:02 INFO 启动成功
+2023-02-11 10:30:04 INFO 点击元素'('id', 'com.inkr.sport:id/tvPopAgreementAgree')'完成
+2023-02-11 10:30:04 INFO 开始左滑
+2023-02-11 10:30:05 INFO 左滑1次
+2023-02-11 10:30:07 INFO 左滑2次
+2023-02-11 10:30:07 INFO 左滑完成
+2023-02-11 10:30:07 INFO 点击元素'('id', 'com.inkr.sport:id/ivEnterApp')'完成
+2023-02-11 10:30:15 INFO 点击元素'('id', 'com.inkr.sport:id/ivTbMine')'完成
+2023-02-11 10:30:16 INFO 点击元素'('id', 'com.inkr.sport:id/tvUserName')'完成
+2023-02-11 10:30:38 INFO 查找元素'账号密码登录'完成
+2023-02-11 10:31:08 INFO 点击元素'账号密码登录'完成
+2023-02-11 10:31:28 INFO 查找元素'请输入手机号'完成
+2023-02-11 10:32:49 INFO 查找元素'请输入密码'完成
+2023-02-11 10:34:50 INFO 点击元素'('id', 'com.inkr.sport:id/ivPolicyCheckBox')'完成
+2023-02-11 10:35:41 INFO 点击元素'('id', 'com.inkr.sport:id/btLogin')'完成
+2023-02-11 10:59:50 INFO 开始启动APP
+2023-02-11 10:59:50 INFO 手机参数：{'platformName': 'android', 'deviceName': 'xiaomi', 'automationName': 'UiAutomator2', 'appPackage': 'com.inkr.sport', 'appActivity': 'com.inkr.sport.activities.SplashActivity'}
+2023-02-11 10:59:59 INFO 启动成功
+2023-02-11 11:00:01 INFO 点击元素'('id', 'com.inkr.sport:id/tvPopAgreementAgree')'完成
+2023-02-11 11:00:01 INFO 开始左滑
+2023-02-11 11:00:02 INFO 左滑1次
+2023-02-11 11:00:04 INFO 左滑2次
+2023-02-11 11:00:04 INFO 左滑完成
+2023-02-11 11:00:04 INFO 点击元素'('id', 'com.inkr.sport:id/ivEnterApp')'完成
+2023-02-11 11:00:11 INFO 点击元素'('id', 'com.inkr.sport:id/ivTbMine')'完成
+2023-02-11 11:00:11 INFO 点击元素'('id', 'com.inkr.sport:id/tvUserName')'完成
+2023-02-11 11:01:33 INFO 开始启动APP
+2023-02-11 11:01:33 INFO 手机参数：{'platformName': 'android', 'deviceName': 'xiaomi', 'automationName': 'UiAutomator2', 'appPackage': 'com.inkr.sport', 'appActivity': 'com.inkr.sport.activities.SplashActivity'}
+2023-02-11 11:01:42 INFO 启动成功
+2023-02-11 11:01:44 INFO 点击元素'('id', 'com.inkr.sport:id/tvPopAgreementAgree')'完成
+2023-02-11 11:01:44 INFO 开始左滑
+2023-02-11 11:01:45 INFO 左滑1次
+2023-02-11 11:01:47 INFO 左滑2次
+2023-02-11 11:01:47 INFO 左滑完成
+2023-02-11 11:01:48 INFO 点击元素'('id', 'com.inkr.sport:id/ivEnterApp')'完成
+2023-02-11 11:01:54 INFO 点击元素'('id', 'com.inkr.sport:id/ivTbMine')'完成
+2023-02-11 11:01:54 INFO 点击元素'('id', 'com.inkr.sport:id/tvUserName')'完成
+2023-02-11 11:02:17 INFO 查找元素'账号密码登录'完成
+2023-02-11 11:02:47 INFO 点击元素'账号密码登录'完成
+2023-02-11 11:03:07 INFO 查找元素'请输入手机号'完成
+2023-02-11 11:04:28 INFO 查找元素'请输入密码'完成
+2023-02-11 11:06:29 INFO 点击元素'('id', 'com.inkr.sport:id/ivPolicyCheckBox')'完成
+2023-02-11 11:07:20 INFO 点击元素'('id', 'com.inkr.sport:id/btLogin')'完成
+2023-02-11 11:14:38 INFO 开始启动APP
+2023-02-11 11:14:38 INFO 手机参数：{'platformName': 'android', 'deviceName': 'xiaomi', 'automationName': 'UiAutomator2', 'appPackage': 'com.inkr.sport', 'appActivity': 'com.inkr.sport.activities.SplashActivity'}
+2023-02-11 11:14:48 INFO 启动成功
+2023-02-11 11:14:49 INFO 点击元素'('id', 'com.inkr.sport:id/tvPopAgreementAgree')'完成
+2023-02-11 11:14:49 INFO 开始左滑
+2023-02-11 11:14:50 INFO 左滑1次
+2023-02-11 11:14:51 INFO 左滑2次
+2023-02-11 11:14:51 INFO 左滑完成
+2023-02-11 11:14:52 INFO 点击元素'('id', 'com.inkr.sport:id/ivEnterApp')'完成
+2023-02-11 11:14:57 INFO 点击元素'('id', 'com.inkr.sport:id/ivTbMine')'完成
+2023-02-11 11:14:59 INFO 点击元素'('id', 'com.inkr.sport:id/tvUserName')'完成
+2023-02-11 11:15:21 INFO 查找元素'账号密码登录'完成
+2023-02-11 11:15:51 INFO 点击元素'账号密码登录'完成
+2023-02-11 11:16:12 INFO 查找元素'请输入手机号'完成
+2023-02-11 11:17:32 INFO 查找元素'请输入密码'完成
+2023-02-11 11:19:33 INFO 点击元素'('id', 'com.inkr.sport:id/ivPolicyCheckBox')'完成
+2023-02-11 11:20:24 INFO 点击元素'('id', 'com.inkr.sport:id/btLogin')'完成
+2023-02-11 11:50:16 INFO 开始启动APP
+2023-02-11 11:50:16 INFO 手机参数：{'platformName': 'android', 'deviceName': 'xiaomi', 'automationName': 'UiAutomator2', 'appPackage': 'com.inkr.sport', 'appActivity': 'com.inkr.sport.activities.SplashActivity'}
+2023-02-11 11:50:27 INFO 启动成功
+2023-02-11 11:50:47 INFO 获取元素'(('id', 'com.inkr.sport:id/tvPopAgreementAgree'),)'失败，原因：Message: 
+Stacktrace:
+NoSuchElementError: An element could not be located on the page using the given search parameters.
+    at AndroidUiautomator2Driver.findElOrEls (E:\Appium-Server-GUI-windows-1.22.3-4\resources\app\node_modules\appium\node_modules\appium-android-driver\lib\commands\find.js:75:11)
+    at runMicrotasks (<anonymous>)
+    at processTicksAndRejections (internal/process/task_queues.js:97:5)
+    at AndroidUiautomator2Driver.findElOrElsWithProcessing (E:\Appium-Server-GUI-windows-1.22.3-4\resources\app\node_modules\appium\node_modules\appium-base-driver\lib\basedriver\commands\find.js:33:12)
+    at AndroidUiautomator2Driver.findElement (E:\Appium-Server-GUI-windows-1.22.3-4\resources\app\node_modules\appium\node_modules\appium-base-driver\lib\basedriver\commands\find.js:53:10)
+2023-02-11 13:44:19 INFO 开始启动APP
+2023-02-11 13:44:19 INFO 手机参数：{'platformName': 'android', 'deviceName': 'xiaomi', 'automationName': 'UiAutomator2', 'appPackage': 'com.inkr.sport', 'appActivity': 'com.inkr.sport.activities.SplashActivity'}
+2023-02-11 13:44:31 INFO 启动成功
+2023-02-11 13:44:42 INFO 点击元素'('id', 'com.inkr.sport:id/tvPopAgreementAgree')'完成
+2023-02-11 13:44:42 INFO 开始左滑
+2023-02-11 13:44:44 INFO 左滑1次
+2023-02-11 13:44:45 INFO 左滑2次
+2023-02-11 13:44:45 INFO 左滑完成
+2023-02-11 13:44:46 INFO 点击元素'('id', 'com.inkr.sport:id/ivEnterApp')'完成
+2023-02-11 13:44:51 INFO 点击元素'('id', 'com.inkr.sport:id/ivTbMine')'完成
+2023-02-11 13:44:53 INFO 点击元素'('id', 'com.inkr.sport:id/tvUserName')'完成
+2023-02-11 13:45:15 INFO 查找元素'账号密码登录'完成
+2023-02-11 13:45:45 INFO 点击元素'账号密码登录'完成
+2023-02-11 13:46:06 INFO 查找元素'请输入手机号'完成

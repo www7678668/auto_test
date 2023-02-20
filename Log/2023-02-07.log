@@ -1,0 +1,49 @@
+2023-02-07 09:17:46 INFO 开始启动APP
+2023-02-07 09:17:46 INFO 手机参数：{'platformName': 'android', 'deviceName': 'xiaomi', 'automationName': 'UiAutomator2', 'appPackage': 'com.inkr.sport', 'appActivity': 'com.inkr.sport.activities.SplashActivity'}
+2023-02-07 09:17:55 INFO 启动成功
+2023-02-07 09:17:56 INFO 开始左滑
+2023-02-07 09:17:58 INFO 左滑1次
+2023-02-07 09:17:59 INFO 左滑2次
+2023-02-07 09:17:59 INFO 左滑完成
+2023-02-07 09:18:10 INFO 点击元素
+2023-02-07 09:18:10 INFO 查看元素开始
+2023-02-07 09:18:30 INFO 查看元素结束
+2023-02-07 09:19:00 INFO 点击结束
+2023-02-07 09:19:00 INFO 输入元素开始
+2023-02-07 09:19:00 INFO 查看元素开始
+2023-02-07 09:19:21 INFO 查看元素结束
+2023-02-07 09:20:21 INFO 输入元素结束
+2023-02-07 09:20:21 INFO 输入元素开始
+2023-02-07 09:20:21 INFO 查看元素开始
+2023-02-07 09:20:41 INFO 查看元素结束
+2023-02-07 09:21:42 INFO 输入元素结束
+2023-02-07 09:25:03 INFO 开始启动APP
+2023-02-07 09:25:03 INFO 手机参数：{'platformName': 'android', 'deviceName': 'xiaomi', 'automationName': 'UiAutomator2', 'appPackage': 'com.inkr.sport', 'appActivity': 'com.inkr.sport.activities.SplashActivity'}
+2023-02-07 09:25:12 INFO 启动成功
+2023-02-07 09:25:13 INFO 开始左滑
+2023-02-07 09:25:14 INFO 左滑1次
+2023-02-07 09:25:16 INFO 左滑2次
+2023-02-07 09:25:16 INFO 左滑完成
+2023-02-07 09:25:45 INFO 获取元素账号密登录失败，原因：Message: An element could not be located on the page using the given search parameters.
+Stacktrace:
+NoSuchElementError: An element could not be located on the page using the given search parameters.
+    at AndroidUiautomator2Driver.findElOrEls (E:\Appium-Server-GUI-windows-1.22.3-4\resources\app\node_modules\appium\node_modules\appium-android-driver\lib\commands\find.js:75:11)
+    at runMicrotasks (<anonymous>)
+    at processTicksAndRejections (internal/process/task_queues.js:97:5)
+    at AndroidUiautomator2Driver.findElOrElsWithProcessing (E:\Appium-Server-GUI-windows-1.22.3-4\resources\app\node_modules\appium\node_modules\appium-base-driver\lib\basedriver\commands\find.js:33:12)
+    at AndroidUiautomator2Driver.findElement (E:\Appium-Server-GUI-windows-1.22.3-4\resources\app\node_modules\appium\node_modules\appium-base-driver\lib\basedriver\commands\find.js:53:10)
+2023-02-07 09:27:06 INFO 开始启动APP
+2023-02-07 09:27:06 INFO 手机参数：{'platformName': 'android', 'deviceName': 'xiaomi', 'automationName': 'UiAutomator2', 'appPackage': 'com.inkr.sport', 'appActivity': 'com.inkr.sport.activities.SplashActivity'}
+2023-02-07 09:27:15 INFO 启动成功
+2023-02-07 09:27:16 INFO 开始左滑
+2023-02-07 09:27:18 INFO 左滑1次
+2023-02-07 09:27:19 INFO 左滑2次
+2023-02-07 09:27:19 INFO 左滑完成
+2023-02-07 09:27:49 INFO 获取text元素"账号密登录"失败，原因：Message: An element could not be located on the page using the given search parameters.
+Stacktrace:
+NoSuchElementError: An element could not be located on the page using the given search parameters.
+    at AndroidUiautomator2Driver.findElOrEls (E:\Appium-Server-GUI-windows-1.22.3-4\resources\app\node_modules\appium\node_modules\appium-android-driver\lib\commands\find.js:75:11)
+    at runMicrotasks (<anonymous>)
+    at processTicksAndRejections (internal/process/task_queues.js:97:5)
+    at AndroidUiautomator2Driver.findElOrElsWithProcessing (E:\Appium-Server-GUI-windows-1.22.3-4\resources\app\node_modules\appium\node_modules\appium-base-driver\lib\basedriver\commands\find.js:33:12)
+    at AndroidUiautomator2Driver.findElement (E:\Appium-Server-GUI-windows-1.22.3-4\resources\app\node_modules\appium\node_modules\appium-base-driver\lib\basedriver\commands\find.js:53:10)

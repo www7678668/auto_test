@@ -1,0 +1,38 @@
+2023-02-03 10:32:14 INFO aaa
+2023-02-03 10:40:08 INFO hello
+2023-02-03 10:45:14 INFO hello
+2023-02-03 10:56:52 INFO hello
+2023-02-03 11:15:19 INFO hello
+2023-02-03 11:51:34 INFO {'platformName': 'android', 'deviceName': 'xiaomi', 'automationName': 'UiAutomator2', 'appPackage': 'com.inkr.sport', 'appActivity': 'com.inkr.sport.activities.SplashActivity'}
+2023-02-03 11:52:28 INFO �ֻ�������{'platformName': 'android', 'deviceName': 'xiaomi', 'automationName': 'UiAutomator2', 'appPackage': 'com.inkr.sport', 'appActivity': 'com.inkr.sport.activities.SplashActivity'}
+2023-02-03 11:54:30 INFO �ֻ�������{'platformName': 'android', 'deviceName': 'xiaomi', 'automationName': 'UiAutomator2', 'appPackage': 'com.inkr.sport', 'appActivity': 'com.inkr.sport.activities.SplashActivity'}
+2023-02-03 13:54:51 INFO 手机参数：{'platformName': 'android', 'deviceName': 'xiaomi', 'automationName': 'UiAutomator2', 'appPackage': 'com.inkr.sport', 'appActivity': 'com.inkr.sport.activities.SplashActivity'}
+2023-02-03 13:55:39 INFO 手机参数：{'platformName': 'android', 'deviceName': 'xiaomi', 'automationName': 'UiAutomator2', 'appPackage': 'com.inkr.sport', 'appActivity': 'com.inkr.sport.activities.SplashActivity'}
+2023-02-03 16:29:32 INFO 手机参数：{'platformName': 'android', 'deviceName': 'xiaomi', 'automationName': 'UiAutomator2', 'appPackage': 'com.inkr.sport', 'appActivity': 'com.inkr.sport.activities.SplashActivity'}
+2023-02-03 16:31:07 INFO 手机参数：{'platformName': 'android', 'deviceName': 'xiaomi', 'automationName': 'UiAutomator2', 'appPackage': 'com.inkr.sport', 'appActivity': 'com.inkr.sport.activities.SplashActivity'}
+2023-02-03 16:31:47 INFO 手机参数：{'platformName': 'android', 'deviceName': 'xiaomi', 'automationName': 'UiAutomator2', 'appPackage': 'com.inkr.sport', 'appActivity': 'com.inkr.sport.activities.SplashActivity'}
+2023-02-03 16:34:06 INFO 手机参数：{'platformName': 'android', 'deviceName': 'xiaomi', 'automationName': 'UiAutomator2', 'appPackage': 'com.inkr.sport', 'appActivity': 'com.inkr.sport.activities.SplashActivity'}
+2023-02-03 16:35:02 INFO 手机参数：{'platformName': 'android', 'deviceName': 'xiaomi', 'automationName': 'UiAutomator2', 'appPackage': 'com.inkr.sport', 'appActivity': 'com.inkr.sport.activities.SplashActivity'}
+2023-02-03 16:35:18 INFO 手机参数：{'platformName': 'android', 'deviceName': 'xiaomi', 'automationName': 'UiAutomator2', 'appPackage': 'com.inkr.sport', 'appActivity': 'com.inkr.sport.activities.SplashActivity'}
+2023-02-03 16:36:12 INFO 手机参数：{'platformName': 'android', 'deviceName': 'xiaomi', 'automationName': 'UiAutomator2', 'appPackage': 'com.inkr.sport', 'appActivity': 'com.inkr.sport.activities.SplashActivity'}
+2023-02-03 16:37:11 INFO 手机参数：{'platformName': 'android', 'deviceName': 'xiaomi', 'automationName': 'UiAutomator2', 'appPackage': 'com.inkr.sport', 'appActivity': 'com.inkr.sport.activities.SplashActivity'}
+2023-02-03 16:38:08 INFO 手机参数：{'platformName': 'android', 'deviceName': 'xiaomi', 'automationName': 'UiAutomator2', 'appPackage': 'com.inkr.sport', 'appActivity': 'com.inkr.sport.activities.SplashActivity'}
+2023-02-03 16:42:12 INFO 手机参数：{'platformName': 'android', 'deviceName': 'xiaomi', 'automationName': 'UiAutomator2', 'appPackage': 'com.inkr.sport', 'appActivity': 'com.inkr.sport.activities.SplashActivity'}
+2023-02-03 16:42:32 INFO 手机参数：{'platformName': 'android', 'deviceName': 'xiaomi', 'automationName': 'UiAutomator2', 'appPackage': 'com.inkr.sport', 'appActivity': 'com.inkr.sport.activities.SplashActivity'}
+2023-02-03 16:42:58 INFO 手机参数：{'platformName': 'android', 'deviceName': 'xiaomi', 'automationName': 'UiAutomator2', 'appPackage': 'com.inkr.sport', 'appActivity': 'com.inkr.sport.activities.SplashActivity'}
+2023-02-03 16:43:26 INFO 手机参数：{'platformName': 'android', 'deviceName': 'xiaomi', 'automationName': 'UiAutomator2', 'appPackage': 'com.inkr.sport', 'appActivity': 'com.inkr.sport.activities.SplashActivity'}
+2023-02-03 16:44:07 INFO 手机参数：{'platformName': 'android', 'deviceName': 'xiaomi', 'automationName': 'UiAutomator2', 'appPackage': 'com.inkr.sport', 'appActivity': 'com.inkr.sport.activities.SplashActivity'}
+2023-02-03 16:47:00 INFO 手机参数：{'platformName': 'android', 'deviceName': 'xiaomi', 'automationName': 'UiAutomator2', 'appPackage': 'com.inkr.sport', 'appActivity': 'com.inkr.sport.activities.SplashActivity'}
+2023-02-03 16:47:56 INFO 手机参数：{'platformName': 'android', 'deviceName': 'xiaomi', 'automationName': 'UiAutomator2', 'appPackage': 'com.inkr.sport', 'appActivity': 'com.inkr.sport.activities.SplashActivity'}
+2023-02-03 16:49:55 INFO 手机参数：{'platformName': 'android', 'deviceName': 'xiaomi', 'automationName': 'UiAutomator2', 'appPackage': 'com.inkr.sport', 'appActivity': 'com.inkr.sport.activities.SplashActivity'}
+2023-02-03 16:50:36 INFO 手机参数：{'platformName': 'android', 'deviceName': 'xiaomi', 'automationName': 'UiAutomator2', 'appPackage': 'com.inkr.sport', 'appActivity': 'com.inkr.sport.activities.SplashActivity'}
+2023-02-03 16:52:02 INFO 手机参数：{'platformName': 'android', 'deviceName': 'xiaomi', 'automationName': 'UiAutomator2', 'appPackage': 'com.inkr.sport', 'appActivity': 'com.inkr.sport.activities.SplashActivity'}
+2023-02-03 16:52:59 INFO 手机参数：{'platformName': 'android', 'deviceName': 'xiaomi', 'automationName': 'UiAutomator2', 'appPackage': 'com.inkr.sport', 'appActivity': 'com.inkr.sport.activities.SplashActivity'}
+2023-02-03 16:56:23 INFO 手机参数：{'platformName': 'android', 'deviceName': 'xiaomi', 'automationName': 'UiAutomator2', 'appPackage': 'com.inkr.sport', 'appActivity': 'com.inkr.sport.activities.SplashActivity'}
+2023-02-03 17:01:04 INFO 手机参数：{'platformName': 'android', 'deviceName': 'xiaomi', 'automationName': 'UiAutomator2', 'appPackage': 'com.inkr.sport', 'appActivity': 'com.inkr.sport.activities.SplashActivity'}
+2023-02-03 17:01:22 INFO 手机参数：{'platformName': 'android', 'deviceName': 'xiaomi', 'automationName': 'UiAutomator2', 'appPackage': 'com.inkr.sport', 'appActivity': 'com.inkr.sport.activities.SplashActivity'}
+2023-02-03 17:02:10 INFO 手机参数：{'platformName': 'android', 'deviceName': 'xiaomi', 'automationName': 'UiAutomator2', 'appPackage': 'com.inkr.sport', 'appActivity': 'com.inkr.sport.activities.SplashActivity'}
+2023-02-03 17:06:42 INFO 手机参数：{'platformName': 'android', 'deviceName': 'xiaomi', 'automationName': 'UiAutomator2', 'appPackage': 'com.inkr.sport', 'appActivity': 'com.inkr.sport.activities.SplashActivity'}
+2023-02-03 17:59:41 INFO 手机参数：{'platformName': 'android', 'deviceName': 'xiaomi', 'automationName': 'UiAutomator2', 'appPackage': 'com.inkr.sport', 'appActivity': 'com.inkr.sport.activities.SplashActivity'}
+2023-02-03 18:08:09 INFO 手机参数：{'platformName': 'ios', 'deviceName': 'iphone xr', 'automationName': 'UiAutomator2', 'appPackage': 'com.inkr.sport', 'appActivity': 'com.inkr.sport.activities.SplashActivity'}
+2023-02-03 18:10:23 INFO 手机参数：{'platformName': 'iOS', 'deviceName': 'iphone xr', 'automationName': 'UiAutomator2', 'appPackage': 'com.inkr.sport', 'appActivity': 'com.inkr.sport.activities.SplashActivity'}
