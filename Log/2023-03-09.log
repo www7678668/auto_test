@@ -1,0 +1,51 @@
+2023-03-09 16:11:14 INFO *********开始启动APP*********
+2023-03-09 16:11:14 INFO 手机参数：{'platformName': 'android', 'deviceName': 'xiaomi', 'automationName': 'UiAutomator2', 'appPackage': 'com.inkr.sport', 'appActivity': 'com.inkr.sport.activities.SplashActivity'}
+2023-03-09 16:11:16 WARNING Retrying (Retry(total=2, connect=None, read=None, redirect=None, status=None)) after connection broken by 'NewConnectionError('<urllib3.connection.HTTPConnection object at 0x000001A8EC1B2108>: Failed to establish a new connection: [WinError 10061] 由于目标计算机积极拒绝，无法连接。')': /wd/hub/session
+2023-03-09 18:01:19 ERROR 获取元素'(('// *[ @ resource - id = "com.inkr.sport:id/glPrice"] / android.view.ViewGroup[7]',),)'失败，原因：'MyPage' object has no attribute 'driver'
+2023-03-09 18:01:38 ERROR 获取元素'(('// *[ @ resource - id = "com.inkr.sport:id/glPrice"] / android.view.ViewGroup[7]',),)'失败，原因：'MyPage' object has no attribute 'driver'
+2023-03-09 18:01:44 ERROR 获取元素'(('// *[ @ resource - id = "com.inkr.sport:id/glPrice"] / android.view.ViewGroup[7]',),)'失败，原因：'MyPage' object has no attribute 'driver'
+2023-03-09 18:02:01 INFO *********开始启动APP*********
+2023-03-09 18:02:01 INFO 手机参数：{'platformName': 'android', 'deviceName': 'xiaomi', 'automationName': 'UiAutomator2', 'appPackage': 'com.inkr.sport', 'appActivity': 'com.inkr.sport.activities.SplashActivity'}
+2023-03-09 18:03:36 INFO *********开始启动APP*********
+2023-03-09 18:03:36 INFO 手机参数：{'platformName': 'android', 'deviceName': 'xiaomi', 'automationName': 'UiAutomator2', 'appPackage': 'com.inkr.sport', 'appActivity': 'com.inkr.sport.activities.SplashActivity'}
+2023-03-09 18:03:49 INFO *********启动成功*********
+2023-03-09 18:03:49 INFO 查找元素'(('id', 'com.inkr.sport:id/tvPopAgreementAgree'),)'完成
+2023-03-09 18:03:49 INFO 点击元素'('id', 'com.inkr.sport:id/tvPopAgreementAgree')'完成
+2023-03-09 18:03:49 INFO 开始左滑
+2023-03-09 18:03:51 INFO 左滑1次
+2023-03-09 18:03:52 INFO 左滑2次
+2023-03-09 18:03:52 INFO 左滑完成
+2023-03-09 18:03:53 INFO 查找元素'(('id', 'com.inkr.sport:id/ivEnterApp'),)'完成
+2023-03-09 18:03:53 INFO 点击元素'('id', 'com.inkr.sport:id/ivEnterApp')'完成
+2023-03-09 18:04:00 INFO 查找元素'(('id', 'com.inkr.sport:id/ivTbMine'),)'完成
+2023-03-09 18:04:00 INFO 点击元素'('id', 'com.inkr.sport:id/ivTbMine')'完成
+2023-03-09 18:04:02 INFO 查找元素'(('id', 'com.inkr.sport:id/tvUserName'),)'完成
+2023-03-09 18:04:02 INFO 点击元素'('id', 'com.inkr.sport:id/tvUserName')'完成
+2023-03-09 18:04:33 INFO 查找元素'(('id', 'com.inkr.sport:id/tvAccountLogin'),)'完成
+2023-03-09 18:05:03 INFO 点击元素'('id', 'com.inkr.sport:id/tvAccountLogin')'完成
+2023-03-09 18:06:54 INFO 查找元素'(('id', 'com.inkr.sport:id/etPd'),)'完成
+2023-03-09 18:08:25 INFO 查找元素'(('id', 'com.inkr.sport:id/ivPolicyCheckBox'),)'完成
+2023-03-09 18:08:55 INFO 点击元素'('id', 'com.inkr.sport:id/ivPolicyCheckBox')'完成
+2023-03-09 18:09:25 INFO 查找元素'(('id', 'com.inkr.sport:id/btLogin'),)'完成
+2023-03-09 18:09:46 INFO 点击元素'('id', 'com.inkr.sport:id/btLogin')'完成
+2023-03-09 18:09:46 INFO 登录成功账号:13000000011 密码：abc123456
+2023-03-09 18:09:49 INFO 查找元素'(('id', 'com.inkr.sport:id/tvExpert'),)'完成
+2023-03-09 18:09:49 INFO 点击元素'('id', 'com.inkr.sport:id/tvExpert')'完成
+2023-03-09 18:09:50 INFO 查找元素'(('id', 'com.inkr.sport:id/tvMenuName'),)'完成
+2023-03-09 18:09:50 INFO 点击元素'('id', 'com.inkr.sport:id/tvMenuName')'完成
+2023-03-09 18:09:52 INFO 查找元素'(('id', 'com.inkr.sport:id/tvNotMind'),)'完成
+2023-03-09 18:09:52 INFO 点击元素'('id', 'com.inkr.sport:id/tvNotMind')'完成
+2023-03-09 18:09:53 INFO 查找元素'(('id', 'com.inkr.sport:id/tvConfirm'),)'完成
+2023-03-09 18:09:53 INFO 点击元素'('id', 'com.inkr.sport:id/tvConfirm')'完成
+2023-03-09 18:09:53 INFO 查找元素'(('id', 'com.inkr.sport:id/tvIKnow'),)'完成
+2023-03-09 18:09:54 INFO 点击元素'('id', 'com.inkr.sport:id/tvIKnow')'完成
+2023-03-09 18:09:54 INFO 查找元素'(('id', 'com.inkr.sport:id/rlAddMatch'),)'完成
+2023-03-09 18:09:54 INFO 点击元素'('id', 'com.inkr.sport:id/rlAddMatch')'完成
+2023-03-09 18:09:56 INFO 查找元素'(('id', 'com.inkr.sport:id/tvFootball'),)'完成
+2023-03-09 18:09:57 INFO 点击元素'('id', 'com.inkr.sport:id/tvFootball')'完成
+2023-03-09 18:09:57 INFO 选择了jingzu玩法
+2023-03-09 18:09:58 INFO 查找元素'(('xpath', '//*[@resource-id="com.inkr.sport:id/recyclerView"]/android.view.ViewGroup[3]'),)'完成
+2023-03-09 18:09:58 INFO 点击元素'('xpath', '//*[@resource-id="com.inkr.sport:id/recyclerView"]/android.view.ViewGroup[3]')'完成
+2023-03-09 18:09:58 INFO 选择了第3比赛
+2023-03-09 18:10:00 INFO 点击元素'('id', 'com.inkr.sport:id/tvValue')'完成
+2023-03-09 18:10:02 INFO 点击元素'('id', 'com.inkr.sport:id/tvValue')'完成

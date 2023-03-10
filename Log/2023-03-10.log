@@ -1,0 +1,197 @@
+2023-03-10 09:14:32 INFO *********开始启动APP*********
+2023-03-10 09:14:32 INFO 手机参数：{'platformName': 'android', 'deviceName': 'xiaomi', 'automationName': 'UiAutomator2', 'appPackage': 'com.inkr.sport', 'appActivity': 'com.inkr.sport.activities.SplashActivity'}
+2023-03-10 09:14:34 WARNING Retrying (Retry(total=2, connect=None, read=None, redirect=None, status=None)) after connection broken by 'NewConnectionError('<urllib3.connection.HTTPConnection object at 0x00000191C78B69C8>: Failed to establish a new connection: [WinError 10061] 由于目标计算机积极拒绝，无法连接。')': /wd/hub/session
+2023-03-10 09:14:56 INFO *********开始启动APP*********
+2023-03-10 09:14:56 INFO 手机参数：{'platformName': 'android', 'deviceName': 'xiaomi', 'automationName': 'UiAutomator2', 'appPackage': 'com.inkr.sport', 'appActivity': 'com.inkr.sport.activities.SplashActivity'}
+2023-03-10 09:15:08 INFO *********启动成功*********
+2023-03-10 09:15:09 INFO 查找元素'(('id', 'com.inkr.sport:id/tvPopAgreementAgree'),)'完成
+2023-03-10 09:15:10 INFO 点击元素'('id', 'com.inkr.sport:id/tvPopAgreementAgree')'完成
+2023-03-10 09:15:10 INFO 开始左滑
+2023-03-10 09:15:11 INFO 左滑1次
+2023-03-10 09:15:13 INFO 左滑2次
+2023-03-10 09:15:13 INFO 左滑完成
+2023-03-10 09:15:13 INFO 查找元素'(('id', 'com.inkr.sport:id/ivEnterApp'),)'完成
+2023-03-10 09:15:13 INFO 点击元素'('id', 'com.inkr.sport:id/ivEnterApp')'完成
+2023-03-10 09:15:17 INFO 查找元素'(('id', 'com.inkr.sport:id/ivTbMine'),)'完成
+2023-03-10 09:15:17 INFO 点击元素'('id', 'com.inkr.sport:id/ivTbMine')'完成
+2023-03-10 09:15:17 INFO 查找元素'(('id', 'com.inkr.sport:id/tvUserName'),)'完成
+2023-03-10 09:15:17 INFO 点击元素'('id', 'com.inkr.sport:id/tvUserName')'完成
+2023-03-10 09:15:47 INFO 查找元素'(('id', 'com.inkr.sport:id/tvAccountLogin'),)'完成
+2023-03-10 09:16:18 INFO 点击元素'('id', 'com.inkr.sport:id/tvAccountLogin')'完成
+2023-03-10 09:18:09 INFO 查找元素'(('id', 'com.inkr.sport:id/etPd'),)'完成
+2023-03-10 09:19:39 INFO 查找元素'(('id', 'com.inkr.sport:id/ivPolicyCheckBox'),)'完成
+2023-03-10 09:20:10 INFO 点击元素'('id', 'com.inkr.sport:id/ivPolicyCheckBox')'完成
+2023-03-10 09:20:40 INFO 查找元素'(('id', 'com.inkr.sport:id/btLogin'),)'完成
+2023-03-10 09:21:00 INFO 点击元素'('id', 'com.inkr.sport:id/btLogin')'完成
+2023-03-10 09:21:00 INFO 登录成功账号:13000000011 密码：abc123456
+2023-03-10 09:21:06 INFO 查找元素'(('id', 'com.inkr.sport:id/tvExpert'),)'完成
+2023-03-10 09:21:06 INFO 点击元素'('id', 'com.inkr.sport:id/tvExpert')'完成
+2023-03-10 09:21:07 INFO 查找元素'(('id', 'com.inkr.sport:id/tvMenuName'),)'完成
+2023-03-10 09:21:07 INFO 点击元素'('id', 'com.inkr.sport:id/tvMenuName')'完成
+2023-03-10 09:21:08 INFO 查找元素'(('id', 'com.inkr.sport:id/tvNotMind'),)'完成
+2023-03-10 09:21:08 INFO 点击元素'('id', 'com.inkr.sport:id/tvNotMind')'完成
+2023-03-10 09:21:09 INFO 查找元素'(('id', 'com.inkr.sport:id/tvConfirm'),)'完成
+2023-03-10 09:21:09 INFO 点击元素'('id', 'com.inkr.sport:id/tvConfirm')'完成
+2023-03-10 09:21:10 INFO 查找元素'(('id', 'com.inkr.sport:id/tvIKnow'),)'完成
+2023-03-10 09:21:10 INFO 点击元素'('id', 'com.inkr.sport:id/tvIKnow')'完成
+2023-03-10 09:21:11 INFO 查找元素'(('id', 'com.inkr.sport:id/rlAddMatch'),)'完成
+2023-03-10 09:21:11 INFO 点击元素'('id', 'com.inkr.sport:id/rlAddMatch')'完成
+2023-03-10 09:21:13 INFO 查找元素'(('id', 'com.inkr.sport:id/tvFootball'),)'完成
+2023-03-10 09:21:13 INFO 点击元素'('id', 'com.inkr.sport:id/tvFootball')'完成
+2023-03-10 09:21:13 INFO 选择了jingzu玩法
+2023-03-10 09:21:14 INFO 查找元素'(('xpath', '//*[@resource-id="com.inkr.sport:id/recyclerView"]/android.view.ViewGroup[3]'),)'完成
+2023-03-10 09:21:15 INFO 点击元素'('xpath', '//*[@resource-id="com.inkr.sport:id/recyclerView"]/android.view.ViewGroup[3]')'完成
+2023-03-10 09:21:15 INFO 选择了第3比赛
+2023-03-10 09:22:07 INFO *********开始启动APP*********
+2023-03-10 09:22:07 INFO 手机参数：{'platformName': 'android', 'deviceName': 'xiaomi', 'automationName': 'UiAutomator2', 'appPackage': 'com.inkr.sport', 'appActivity': 'com.inkr.sport.activities.SplashActivity'}
+2023-03-10 09:22:43 INFO *********开始启动APP*********
+2023-03-10 09:22:43 INFO 手机参数：{'platformName': 'android', 'deviceName': 'xiaomi', 'automationName': 'UiAutomator2', 'appPackage': 'com.inkr.sport', 'appActivity': 'com.inkr.sport.activities.SplashActivity'}
+2023-03-10 09:22:53 INFO *********启动成功*********
+2023-03-10 09:22:53 INFO 查找元素'(('id', 'com.inkr.sport:id/tvPopAgreementAgree'),)'完成
+2023-03-10 09:22:54 INFO 点击元素'('id', 'com.inkr.sport:id/tvPopAgreementAgree')'完成
+2023-03-10 09:22:54 INFO 开始左滑
+2023-03-10 09:22:55 INFO 左滑1次
+2023-03-10 09:22:57 INFO 左滑2次
+2023-03-10 09:22:57 INFO 左滑完成
+2023-03-10 09:22:58 INFO 查找元素'(('id', 'com.inkr.sport:id/ivEnterApp'),)'完成
+2023-03-10 09:22:58 INFO 点击元素'('id', 'com.inkr.sport:id/ivEnterApp')'完成
+2023-03-10 09:23:04 INFO 查找元素'(('id', 'com.inkr.sport:id/ivTbMine'),)'完成
+2023-03-10 09:23:05 INFO 点击元素'('id', 'com.inkr.sport:id/ivTbMine')'完成
+2023-03-10 09:23:05 INFO 查找元素'(('id', 'com.inkr.sport:id/tvUserName'),)'完成
+2023-03-10 09:23:05 INFO 点击元素'('id', 'com.inkr.sport:id/tvUserName')'完成
+2023-03-10 09:23:36 INFO 查找元素'(('id', 'com.inkr.sport:id/tvAccountLogin'),)'完成
+2023-03-10 09:24:06 INFO 点击元素'('id', 'com.inkr.sport:id/tvAccountLogin')'完成
+2023-03-10 09:25:57 INFO 查找元素'(('id', 'com.inkr.sport:id/etPd'),)'完成
+2023-03-10 09:27:28 INFO 查找元素'(('id', 'com.inkr.sport:id/ivPolicyCheckBox'),)'完成
+2023-03-10 09:27:58 INFO 点击元素'('id', 'com.inkr.sport:id/ivPolicyCheckBox')'完成
+2023-03-10 09:28:29 INFO 查找元素'(('id', 'com.inkr.sport:id/btLogin'),)'完成
+2023-03-10 09:28:49 INFO 点击元素'('id', 'com.inkr.sport:id/btLogin')'完成
+2023-03-10 09:28:49 INFO 登录成功账号:13000000011 密码：abc123456
+2023-03-10 09:28:52 INFO 查找元素'(('id', 'com.inkr.sport:id/tvExpert'),)'完成
+2023-03-10 09:28:52 INFO 点击元素'('id', 'com.inkr.sport:id/tvExpert')'完成
+2023-03-10 09:28:53 INFO 查找元素'(('id', 'com.inkr.sport:id/tvMenuName'),)'完成
+2023-03-10 09:28:54 INFO 点击元素'('id', 'com.inkr.sport:id/tvMenuName')'完成
+2023-03-10 09:28:55 INFO 查找元素'(('id', 'com.inkr.sport:id/tvNotMind'),)'完成
+2023-03-10 09:28:55 INFO 点击元素'('id', 'com.inkr.sport:id/tvNotMind')'完成
+2023-03-10 09:28:56 INFO 查找元素'(('id', 'com.inkr.sport:id/tvConfirm'),)'完成
+2023-03-10 09:28:56 INFO 点击元素'('id', 'com.inkr.sport:id/tvConfirm')'完成
+2023-03-10 09:28:56 INFO 查找元素'(('id', 'com.inkr.sport:id/tvIKnow'),)'完成
+2023-03-10 09:28:57 INFO 点击元素'('id', 'com.inkr.sport:id/tvIKnow')'完成
+2023-03-10 09:28:57 INFO 查找元素'(('id', 'com.inkr.sport:id/rlAddMatch'),)'完成
+2023-03-10 09:28:57 INFO 点击元素'('id', 'com.inkr.sport:id/rlAddMatch')'完成
+2023-03-10 09:29:00 INFO 查找元素'(('id', 'com.inkr.sport:id/tvFootball'),)'完成
+2023-03-10 09:29:00 INFO 点击元素'('id', 'com.inkr.sport:id/tvFootball')'完成
+2023-03-10 09:29:00 INFO 选择了jingzu玩法
+2023-03-10 09:29:01 INFO 查找元素'(('xpath', '//*[@resource-id="com.inkr.sport:id/recyclerView"]/android.view.ViewGroup[3]'),)'完成
+2023-03-10 09:29:02 INFO 点击元素'('xpath', '//*[@resource-id="com.inkr.sport:id/recyclerView"]/android.view.ViewGroup[3]')'完成
+2023-03-10 09:29:02 INFO 选择了第3比赛
+2023-03-10 09:39:18 INFO *********开始启动APP*********
+2023-03-10 09:39:18 INFO 手机参数：{'platformName': 'android', 'deviceName': 'xiaomi', 'automationName': 'UiAutomator2', 'appPackage': 'com.inkr.sport', 'appActivity': 'com.inkr.sport.activities.SplashActivity'}
+2023-03-10 09:39:29 INFO *********启动成功*********
+2023-03-10 09:39:30 INFO 查找元素'(('id', 'com.inkr.sport:id/tvPopAgreementAgree'),)'完成
+2023-03-10 09:39:30 INFO 点击元素'('id', 'com.inkr.sport:id/tvPopAgreementAgree')'完成
+2023-03-10 09:39:30 INFO 开始左滑
+2023-03-10 09:39:32 INFO 左滑1次
+2023-03-10 09:39:33 INFO 左滑2次
+2023-03-10 09:39:33 INFO 左滑完成
+2023-03-10 09:39:34 INFO 查找元素'(('id', 'com.inkr.sport:id/ivEnterApp'),)'完成
+2023-03-10 09:39:34 INFO 点击元素'('id', 'com.inkr.sport:id/ivEnterApp')'完成
+2023-03-10 09:39:39 INFO 查找元素'(('id', 'com.inkr.sport:id/ivTbMine'),)'完成
+2023-03-10 09:39:39 INFO 点击元素'('id', 'com.inkr.sport:id/ivTbMine')'完成
+2023-03-10 09:39:39 INFO 查找元素'(('id', 'com.inkr.sport:id/tvUserName'),)'完成
+2023-03-10 09:39:39 INFO 点击元素'('id', 'com.inkr.sport:id/tvUserName')'完成
+2023-03-10 09:40:10 INFO 查找元素'(('id', 'com.inkr.sport:id/tvAccountLogin'),)'完成
+2023-03-10 09:40:40 INFO 点击元素'('id', 'com.inkr.sport:id/tvAccountLogin')'完成
+2023-03-10 09:42:31 INFO 查找元素'(('id', 'com.inkr.sport:id/etPd'),)'完成
+2023-03-10 09:44:02 INFO 查找元素'(('id', 'com.inkr.sport:id/ivPolicyCheckBox'),)'完成
+2023-03-10 09:44:32 INFO 点击元素'('id', 'com.inkr.sport:id/ivPolicyCheckBox')'完成
+2023-03-10 09:45:02 INFO 查找元素'(('id', 'com.inkr.sport:id/btLogin'),)'完成
+2023-03-10 09:45:23 INFO 点击元素'('id', 'com.inkr.sport:id/btLogin')'完成
+2023-03-10 09:45:23 INFO 登录成功账号:13000000011 密码：abc123456
+2023-03-10 09:45:26 INFO 查找元素'(('id', 'com.inkr.sport:id/tvExpert'),)'完成
+2023-03-10 09:45:26 INFO 点击元素'('id', 'com.inkr.sport:id/tvExpert')'完成
+2023-03-10 09:45:27 INFO 查找元素'(('id', 'com.inkr.sport:id/tvMenuName'),)'完成
+2023-03-10 09:45:27 INFO 点击元素'('id', 'com.inkr.sport:id/tvMenuName')'完成
+2023-03-10 09:45:28 INFO 查找元素'(('id', 'com.inkr.sport:id/tvNotMind'),)'完成
+2023-03-10 09:45:28 INFO 点击元素'('id', 'com.inkr.sport:id/tvNotMind')'完成
+2023-03-10 09:45:29 INFO 查找元素'(('id', 'com.inkr.sport:id/tvConfirm'),)'完成
+2023-03-10 09:45:29 INFO 点击元素'('id', 'com.inkr.sport:id/tvConfirm')'完成
+2023-03-10 09:45:29 INFO 查找元素'(('id', 'com.inkr.sport:id/tvIKnow'),)'完成
+2023-03-10 09:45:30 INFO 点击元素'('id', 'com.inkr.sport:id/tvIKnow')'完成
+2023-03-10 09:45:30 INFO 查找元素'(('id', 'com.inkr.sport:id/rlAddMatch'),)'完成
+2023-03-10 09:45:30 INFO 点击元素'('id', 'com.inkr.sport:id/rlAddMatch')'完成
+2023-03-10 09:45:33 INFO 查找元素'(('id', 'com.inkr.sport:id/tvFootball'),)'完成
+2023-03-10 09:45:33 INFO 点击元素'('id', 'com.inkr.sport:id/tvFootball')'完成
+2023-03-10 09:45:33 INFO 选择了jingzu玩法
+2023-03-10 09:45:34 INFO 查找元素'(('xpath', '//*[@resource-id="com.inkr.sport:id/recyclerView"]/android.view.ViewGroup[4]'),)'完成
+2023-03-10 09:45:34 INFO 点击元素'('xpath', '//*[@resource-id="com.inkr.sport:id/recyclerView"]/android.view.ViewGroup[4]')'完成
+2023-03-10 09:45:34 INFO 选择了第4比赛
+2023-03-10 09:45:36 INFO 不能选择主推次推
+2023-03-10 09:45:36 INFO 点击元素'('id', 'com.inkr.sport:id/tvValue')'完成
+2023-03-10 09:45:37 INFO 点击元素'('id', 'com.inkr.sport:id/tvSelect')'完成
+2023-03-10 09:45:57 ERROR 获取元素'(('id', '//*[@resource-id="com.inkr.sport:id/llOdds"]/android.view.ViewGroup[0]/androidx.recyclerview.widget.RecyclerView[1]/android.view.ViewGroup[1]'),)'失败，原因：Message: 
+Stacktrace:
+NoSuchElementError: An element could not be located on the page using the given search parameters.
+    at AndroidUiautomator2Driver.findElOrEls (E:\Appium-Server-GUI-windows-1.22.3-4\resources\app\node_modules\appium\node_modules\appium-android-driver\lib\commands\find.js:75:11)
+    at runMicrotasks (<anonymous>)
+    at processTicksAndRejections (internal/process/task_queues.js:97:5)
+    at AndroidUiautomator2Driver.findElOrElsWithProcessing (E:\Appium-Server-GUI-windows-1.22.3-4\resources\app\node_modules\appium\node_modules\appium-base-driver\lib\basedriver\commands\find.js:33:12)
+    at AndroidUiautomator2Driver.findElement (E:\Appium-Server-GUI-windows-1.22.3-4\resources\app\node_modules\appium\node_modules\appium-base-driver\lib\basedriver\commands\find.js:53:10)
+2023-03-10 10:14:55 INFO *********开始启动APP*********
+2023-03-10 10:14:55 INFO 手机参数：{'platformName': 'android', 'deviceName': 'xiaomi', 'automationName': 'UiAutomator2', 'appPackage': 'com.inkr.sport', 'appActivity': 'com.inkr.sport.activities.SplashActivity'}
+2023-03-10 10:14:57 WARNING Retrying (Retry(total=2, connect=None, read=None, redirect=None, status=None)) after connection broken by 'NewConnectionError('<urllib3.connection.HTTPConnection object at 0x0000020CF35BD8C8>: Failed to establish a new connection: [WinError 10061] 由于目标计算机积极拒绝，无法连接。')': /wd/hub/session
+2023-03-10 10:14:59 WARNING Retrying (Retry(total=1, connect=None, read=None, redirect=None, status=None)) after connection broken by 'NewConnectionError('<urllib3.connection.HTTPConnection object at 0x0000020CF373DD88>: Failed to establish a new connection: [WinError 10061] 由于目标计算机积极拒绝，无法连接。')': /wd/hub/session
+2023-03-10 10:15:01 WARNING Retrying (Retry(total=0, connect=None, read=None, redirect=None, status=None)) after connection broken by 'NewConnectionError('<urllib3.connection.HTTPConnection object at 0x0000020CF3752148>: Failed to establish a new connection: [WinError 10061] 由于目标计算机积极拒绝，无法连接。')': /wd/hub/session
+2023-03-10 10:15:19 INFO *********开始启动APP*********
+2023-03-10 10:15:19 INFO 手机参数：{'platformName': 'android', 'deviceName': 'xiaomi', 'automationName': 'UiAutomator2', 'appPackage': 'com.inkr.sport', 'appActivity': 'com.inkr.sport.activities.SplashActivity'}
+2023-03-10 10:15:44 INFO *********开始启动APP*********
+2023-03-10 10:15:44 INFO 手机参数：{'platformName': 'android', 'deviceName': 'xiaomi', 'automationName': 'UiAutomator2', 'appPackage': 'com.inkr.sport', 'appActivity': 'com.inkr.sport.activities.SplashActivity'}
+2023-03-10 10:16:05 INFO *********开始启动APP*********
+2023-03-10 10:16:05 INFO 手机参数：{'platformName': 'android', 'deviceName': 'xiaomi', 'automationName': 'UiAutomator2', 'appPackage': 'com.inkr.sport', 'appActivity': 'com.inkr.sport.activities.SplashActivity'}
+2023-03-10 10:16:18 INFO *********启动成功*********
+2023-03-10 10:16:19 INFO 查找元素'(('id', 'com.inkr.sport:id/tvPopAgreementAgree'),)'完成
+2023-03-10 10:16:19 INFO 点击元素'('id', 'com.inkr.sport:id/tvPopAgreementAgree')'完成
+2023-03-10 10:16:19 INFO 开始左滑
+2023-03-10 10:16:20 INFO 左滑1次
+2023-03-10 10:16:21 INFO 左滑2次
+2023-03-10 10:16:21 INFO 左滑完成
+2023-03-10 10:16:22 INFO 查找元素'(('id', 'com.inkr.sport:id/ivEnterApp'),)'完成
+2023-03-10 10:16:22 INFO 点击元素'('id', 'com.inkr.sport:id/ivEnterApp')'完成
+2023-03-10 10:16:28 INFO 查找元素'(('id', 'com.inkr.sport:id/ivTbMine'),)'完成
+2023-03-10 10:16:28 INFO 点击元素'('id', 'com.inkr.sport:id/ivTbMine')'完成
+2023-03-10 10:16:29 INFO 查找元素'(('id', 'com.inkr.sport:id/tvUserName'),)'完成
+2023-03-10 10:16:29 INFO 点击元素'('id', 'com.inkr.sport:id/tvUserName')'完成
+2023-03-10 10:16:59 INFO 查找元素'(('id', 'com.inkr.sport:id/tvAccountLogin'),)'完成
+2023-03-10 10:17:13 INFO *********开始启动APP*********
+2023-03-10 10:17:13 INFO 手机参数：{'platformName': 'android', 'deviceName': 'xiaomi', 'automationName': 'UiAutomator2', 'appPackage': 'com.inkr.sport', 'appActivity': 'com.inkr.sport.activities.SplashActivity'}
+2023-03-10 10:18:19 INFO *********开始启动APP*********
+2023-03-10 10:18:19 INFO 手机参数：{'platformName': 'android', 'deviceName': 'xiaomi', 'automationName': 'UiAutomator2', 'appPackage': 'com.inkr.sport', 'appActivity': 'com.inkr.sport.activities.SplashActivity'}
+2023-03-10 10:18:45 INFO *********开始启动APP*********
+2023-03-10 10:18:45 INFO 手机参数：{'platformName': 'android', 'deviceName': 'xiaomi', 'automationName': 'UiAutomator2', 'appPackage': 'com.inkr.sport', 'appActivity': 'com.inkr.sport.activities.SplashActivity'}
+2023-03-10 10:19:23 INFO *********开始启动APP*********
+2023-03-10 10:19:23 INFO 手机参数：{'platformName': 'android', 'deviceName': 'xiaomi', 'automationName': 'UiAutomator2', 'appPackage': 'com.inkr.sport', 'appActivity': 'com.inkr.sport.activities.SplashActivity'}
+2023-03-10 10:22:03 INFO *********开始启动APP*********
+2023-03-10 10:22:03 INFO 手机参数：{'platformName': 'android', 'deviceName': 'xiaomi', 'automationName': 'UiAutomator2', 'appPackage': 'com.inkr.sport', 'appActivity': 'com.inkr.sport.activities.SplashActivity'}
+2023-03-10 10:22:05 WARNING Retrying (Retry(total=2, connect=None, read=None, redirect=None, status=None)) after connection broken by 'NewConnectionError('<urllib3.connection.HTTPConnection object at 0x000002558ED4FE88>: Failed to establish a new connection: [WinError 10061] 由于目标计算机积极拒绝，无法连接。')': /wd/hub/session
+2023-03-10 10:22:07 WARNING Retrying (Retry(total=1, connect=None, read=None, redirect=None, status=None)) after connection broken by 'NewConnectionError('<urllib3.connection.HTTPConnection object at 0x000002558ED78208>: Failed to establish a new connection: [WinError 10061] 由于目标计算机积极拒绝，无法连接。')': /wd/hub/session
+2023-03-10 10:22:09 WARNING Retrying (Retry(total=0, connect=None, read=None, redirect=None, status=None)) after connection broken by 'NewConnectionError('<urllib3.connection.HTTPConnection object at 0x000002558ED78B48>: Failed to establish a new connection: [WinError 10061] 由于目标计算机积极拒绝，无法连接。')': /wd/hub/session
+2023-03-10 10:22:25 INFO *********开始启动APP*********
+2023-03-10 10:22:25 INFO 手机参数：{'platformName': 'android', 'deviceName': 'xiaomi', 'automationName': 'UiAutomator2', 'appPackage': 'com.inkr.sport', 'appActivity': 'com.inkr.sport.activities.SplashActivity'}
+2023-03-10 10:22:27 WARNING Retrying (Retry(total=2, connect=None, read=None, redirect=None, status=None)) after connection broken by 'NewConnectionError('<urllib3.connection.HTTPConnection object at 0x000001C68B59FD08>: Failed to establish a new connection: [WinError 10061] 由于目标计算机积极拒绝，无法连接。')': /wd/hub/session
+2023-03-10 10:23:09 INFO *********开始启动APP*********
+2023-03-10 10:23:09 INFO 手机参数：{'platformName': 'android', 'deviceName': 'xiaomi', 'automationName': 'UiAutomator2', 'appPackage': 'com.inkr.sport', 'appActivity': 'com.inkr.sport.activities.SplashActivity'}
+2023-03-10 10:23:22 INFO *********开始启动APP*********
+2023-03-10 10:23:22 INFO 手机参数：{'platformName': 'android', 'deviceName': 'xiaomi', 'automationName': 'UiAutomator2', 'appPackage': 'com.inkr.sport', 'appActivity': 'com.inkr.sport.activities.SplashActivity'}
+2023-03-10 10:23:48 INFO *********开始启动APP*********
+2023-03-10 10:23:48 INFO 手机参数：{'platformName': 'android', 'deviceName': 'xiaomi', 'automationName': 'UiAutomator2', 'appPackage': 'com.inkr.sport', 'appActivity': 'com.inkr.sport.activities.SplashActivity'}
+2023-03-10 10:23:51 WARNING Retrying (Retry(total=2, connect=None, read=None, redirect=None, status=None)) after connection broken by 'NewConnectionError('<urllib3.connection.HTTPConnection object at 0x0000017C3AAAFDC8>: Failed to establish a new connection: [WinError 10061] 由于目标计算机积极拒绝，无法连接。')': /wd/hub/session
+2023-03-10 10:23:53 WARNING Retrying (Retry(total=1, connect=None, read=None, redirect=None, status=None)) after connection broken by 'NewConnectionError('<urllib3.connection.HTTPConnection object at 0x0000017C3AAD9048>: Failed to establish a new connection: [WinError 10061] 由于目标计算机积极拒绝，无法连接。')': /wd/hub/session
+2023-03-10 10:23:55 WARNING Retrying (Retry(total=0, connect=None, read=None, redirect=None, status=None)) after connection broken by 'NewConnectionError('<urllib3.connection.HTTPConnection object at 0x0000017C3AAD9988>: Failed to establish a new connection: [WinError 10061] 由于目标计算机积极拒绝，无法连接。')': /wd/hub/session
+2023-03-10 10:24:03 INFO *********开始启动APP*********
+2023-03-10 10:24:03 INFO 手机参数：{'platformName': 'android', 'deviceName': 'xiaomi', 'automationName': 'UiAutomator2', 'appPackage': 'com.inkr.sport', 'appActivity': 'com.inkr.sport.activities.SplashActivity'}
+2023-03-10 10:30:41 INFO *********开始启动APP*********
+2023-03-10 10:30:41 INFO 手机参数：{'platformName': 'android', 'deviceName': 'xiaomi', 'automationName': 'UiAutomator2', 'appPackage': 'com.inkr.sport', 'appActivity': 'com.inkr.sport.activities.SplashActivity'}
+2023-03-10 11:22:57 INFO *********开始启动APP*********
+2023-03-10 11:22:57 INFO 手机参数：{'platformName': 'android', 'deviceName': 'xiaomi', 'automationName': 'UiAutomator2', 'appPackage': 'com.inkr.sport', 'appActivity': 'com.inkr.sport.activities.SplashActivity'}
+2023-03-10 13:45:28 INFO *********开始启动APP*********
+2023-03-10 13:45:28 INFO 手机参数：{'platformName': 'android', 'deviceName': 'xiaomi', 'automationName': 'UiAutomator2', 'appPackage': 'com.inkr.sport', 'appActivity': 'com.inkr.sport.activities.SplashActivity'}

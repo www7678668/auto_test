@@ -1,0 +1,8 @@
+2023-03-03 16:24:46 INFO *********开始启动APP*********
+2023-03-03 16:24:46 INFO 手机参数：{'platformName': 'android', 'deviceName': 'xiaomi', 'automationName': 'UiAutomator2', 'appPackage': 'com.inkr.sport', 'appActivity': 'com.inkr.sport.activities.SplashActivity'}
+2023-03-03 16:24:57 INFO *********启动成功*********
+2023-03-03 17:27:25 INFO *********开始启动APP*********
+2023-03-03 17:27:25 INFO 手机参数：{'platformName': 'android', 'deviceName': 'xiaomi', 'automationName': 'UiAutomator2', 'appPackage': 'com.inkr.sport', 'appActivity': 'com.inkr.sport.activities.SplashActivity'}
+2023-03-03 17:27:35 INFO *********开始启动APP*********
+2023-03-03 17:27:35 INFO 手机参数：{'platformName': 'android', 'deviceName': 'xiaomi', 'automationName': 'UiAutomator2', 'appPackage': 'com.inkr.sport', 'appActivity': 'com.inkr.sport.activities.SplashActivity'}
+2023-03-03 17:27:43 INFO *********启动成功*********
