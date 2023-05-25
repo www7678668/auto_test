@@ -1,1 +1,0 @@
-{"5c74f42c0d1368dc21939ba9d783b7a1":{"statistic":{"failed":1,"broken":0,"skipped":0,"passed":0,"unknown":0,"total":1},"items":[{"uid":"c1291221bb0791c1","status":"failed","statusDetails":"AssertionError: assert 5 == 6","time":{"start":1678065839691,"stop":1678065839691,"duration":0}}]}}

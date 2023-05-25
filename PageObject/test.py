@@ -21,23 +21,63 @@
 #
 # print(xiaoli.get_name())   #用实例对象来调用实例方法
 #
-def test(a,b,c,main,secondary):
-    if (a>=2.1) +(b>=2.1) +(c>=2.1)>=2:
-        n = 0
-        list = []
-        for i in (a,b,c):
-            n=n+1
-            if i>2:
-                list.append(n)
-        if main in list and secondary in list:
-            print(main, secondary)
-        else:
-            print("不能选择主推次推")
+# from my_page import MyPage
+# from my_page import HomePage
+# from Common.desired_cap import desired_cap
+# from Common.base_page import BasePage
+# from headline_page import Headline
+# b = HomePage()
+# a = MyPage()
+# c = BasePage()
+# d = Headline()
+# a.driver = desired_cap().desired_cap()
+# d.driver = a.driver
+# a.login_password("13000000000", "abc123456")
+# d.publish_video_invitation()
+# d.invitation_likes()
+# d.invitation_remark()
 
-test(1,3,3,3,2)
+import pygame
+import math
+
+# 初始化Pygame
+pygame.init()
 
 
+# 定义爱心函数
+def draw_heart(x, y, size):
+    pygame.draw.circle(pygame.Surface([2, 2]), (255, 0, 0), (int(x), int(y)), size)
 
 
+# 设置画布大小和标题
+canvas = pygame.display.set_mode((800, 600))
+pygame.display.set_caption("3D Love Heart")
 
+# 绘制爱心
+draw_heart(0, 0, 200)
 
+# 循环直到用户关闭窗口
+done = False
+clock = pygame.time.Clock()
+while not done:
+    for event in pygame.event.get():
+        if event.type == pygame.QUIT:
+            done = True
+
+            # 更新画布
+    canvas.fill((0, 0, 0))
+    draw_heart(0, 0, 200)
+
+    # 绘制文字
+    text = pygame.font.SysFont(None, 30).render("Love", True, (255, 255, 255))
+    rect = text.get_rect(center=(400, 300))
+    canvas.blit(text, rect)
+
+    # 刷新画布
+    pygame.display.flip()
+
+    # 控制帧率
+    clock.tick(60)
+
+# 退出Pygame
+pygame.quit()

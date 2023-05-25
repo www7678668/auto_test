@@ -1,42 +1,52 @@
-#-*- coding:utf-8 -*-
+# -*- coding:utf-8 -*-
 # @Time : 2023-02-06 11:32
 # @Author : zhangwen
 # @File : home_page.py
 
-#appium操作元素基础封装
 import time
 from selenium.webdriver.support.ui import WebDriverWait
 from selenium.webdriver.support import expected_conditions as ec
-from Common.desired_cap import desired_cap
+from Common.desired_cap import DesiredCap
 from appium.webdriver.common.mobileby import MobileBy as By
 from Common.utils import Utils
 from appium.webdriver.common.appiumby import AppiumBy
 
-logger = Utils().logs
+logger = Utils().logs  # 日志作全局变量
 
+
+# appium操作元素基础封装
 class BasePage:
     def __int__(self, driver):
         self.driver = driver
 
-    #定位元素
+    # 定位元素
     def find_element(self, *locator):
         try:
             element = WebDriverWait(self.driver, 20).until(ec.visibility_of_element_located(*locator))
-            #element =  self.driver.find_element(*locator)
+            # element =  self.driver.find_element(*locator)
             logger.info("查找元素'{}'完成".format(locator))
             return element
         except Exception as e:
             logger.error("获取元素'{}'失败，原因：{}".format(locator, e))
 
-    #定位一组元素
-    def find_elements(self, *locator):
-        return  self.driver.find_elements(*locator)
+    # 元素点击
+    def element_click(self, *locator):
+        self.find_element(locator).click()
+        logger.info("点击元素'{}'完成".format(locator))
 
-    #一组元素点击
-    def elements_click(self, *locator,number):
+    # 输入内容
+    def element_send_keys(self, *locator, input_text):
+        self.find_element(locator).send_keys(input_text)
+
+    # 定位一组元素
+    def find_elements(self, *locator):
+        return self.driver.find_elements(*locator)
+
+    # 一组元素点击
+    def elements_click(self, *locator, number):
         """
         :param locator:
-        :param number: 需要点击第几个元素，默认点击第一个
+        :param number: 需要点击第几个元素
         :return:
         """
         if number != None:
@@ -44,15 +54,6 @@ class BasePage:
             logger.info("点击元素'{}'完成".format(locator))
         else:
             return "number为空，不做任何操作"
-
-    #元素点击
-    def element_click(self, *locator):
-        self.find_element(locator).click()
-        logger.info("点击元素'{}'完成".format(locator))
-
-    #输入内容
-    def element_send_keys(self, *locator, input_text):
-        self.find_element(locator).send_keys(input_text)
 
     # uiautomator定位元素
     def find_element_uiautomator(self, text):
@@ -64,9 +65,8 @@ class BasePage:
             element = self.driver.find_element(AppiumBy.ANDROID_UIAUTOMATOR, 'new UiSelector().text("{}")'.format(text))
             logger.info("查找元素'{}'完成".format(text))
             return element
-        except Exception as  e:
+        except Exception as e:
             logger.error("获取text元素'{}'失败，原因：{}".format(text, e))
-
 
     # uiautomator点击
     def element_click_uiautomator(self, text):
@@ -77,17 +77,26 @@ class BasePage:
     def element_send_keys_uiautomator(self, text, input_text):
         self.find_element_uiautomator(text).send_keys(input_text)
 
-    #获取手机屏幕宽，高
+    # 获取手机屏幕宽，高
     def get_screen_size(self):
         screen_size = self.driver.get_window_size()
         return screen_size
 
-    #获取元素的value值
-    def get_attribute_value(self,attr,*locator):
+    # 元素坐标相对位置点击，width_percentage：宽百分比，height_percentage：高百分比
+    def click_x_y(self, width_percentage, height_percentage):
+        x = width_percentage * self.get_screen_size()["width"]
+        y = height_percentage * self.get_screen_size()["height"]
+        self.driver.tap([(x, y)], 500)
+
+    # 获取元素的value值
+    def get_attribute_value(self, attr, *locator):
         return self.find_element(locator).get_attribute(attr)
 
-    #左滑
-    def left_slide(self, count = 1, t = 100):
+    # 获取一组元素的value值，number第几个元素
+    def get_attribute_values(self, attr, number, *locator):
+        return self.find_elements(locator)[number].get_attribute(attr)
+
+    def left_slide(self, count=1, t=100):
         """
         :param count: 滑动次数，默认1
         :param t: 滑动时间，默认100ms
@@ -101,11 +110,11 @@ class BasePage:
         for i in range(count):
             time.sleep(1)
             self.driver.swipe(x1, y1, x2, y1, t)
-            logger.info("左滑{}次".format(i+1))
+            logger.info("左滑{}次".format(i + 1))
         logger.info("左滑完成")
 
     # 右滑
-    def swipe_right(self,count = 1, t = 100):
+    def swipe_right(self, count=1, t=100):
         """
         :param count: 滑动次数，默认1
         :param t: 滑动时间，默认100ms
@@ -117,12 +126,13 @@ class BasePage:
         y1 = screen_size['height'] * 0.5
         x2 = screen_size['width'] * 0.75
         for i in range(count):
-            time.sleep()
+            time.sleep(1)
             self.driver.swipe(x1, y1, x2, y1, t)
+            logger.info("右滑{}次".format(i + 1))
         logger.info("右滑完成")
 
     # 上滑
-    def swipe_up(self, count = 1, t = 100):
+    def swipe_up(self, count=1, t=100):
         """
         :param count: 滑动次数，默认1
         :param t: 滑动时间，默认100ms
@@ -135,10 +145,11 @@ class BasePage:
         y2 = screen_size['height'] * 0.25
         for i in range(count):
             self.driver.swipe(x1, y1, x1, y2, t)
+            logger.info("上滑{}次".format(i + 1))
         logger.info("上滑完成")
 
     # 下滑
-    def swipe_down(self, count = 1, t = 100):
+    def swipe_down(self, count=1, t=100):
         """
         :param count: 滑动次数，默认1
         :param t: 滑动时间，默认100ms
@@ -151,13 +162,13 @@ class BasePage:
         y2 = screen_size['height'] * 0.75
         for i in range(count):
             self.driver.swipe(x1, y1, x1, y2, t)
+            logger.info("下滑{}次".format(i + 1))
         logger.info("下滑完成")
-
 
 
 if __name__ == '__main__':
     a = BasePage()
-    # a.driver = desired_cap().desired_cap()
+    a.driver =DesiredCap.desired_cap()
     # a.element_click(By.ID,"com.inkr.sport:id/tvPopAgreementAgree")
     # a.left_slide(count=2)
     # a.element_click(By.ID, "com.inkr.sport:id/ivEnterApp")
@@ -165,7 +176,8 @@ if __name__ == '__main__':
     # #a.find_element(By.ID,"com.inkr.sport:id/tvUserName").click()
     # b = a.get_text_value("text",By.ID, "com.inkr.sport:id/tvUserName",)
     # print(b)
-    logger.info("555")
+    b = a.get_screen_size()
+    print(b)
 
     #
     # a.element_click(By.ID, "com.inkr.sport:id/tvUserName")
