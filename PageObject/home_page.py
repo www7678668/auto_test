@@ -13,7 +13,7 @@ logger = Utils().logs  # 实例化logger
 # 主页面(有料)操作封装
 class HomePage(BasePage):
     id_personal_information_agree = utils.get_config("home_page", "bottom_navigation_bar",
-                                                  "id_personal_information_agree")  # 个人信息统一按钮
+                                                     "id_personal_information_agree")  # 个人信息统一按钮
     id_experience_now = utils.get_config("home_page", "bottom_navigation_bar", "id_experience_now")  # 立即体验按钮
     id_my = utils.get_config("home_page", "bottom_navigation_bar", "id_my")  # 我的按钮
     id_match = utils.get_config("home_page", "bottom_navigation_bar", "id_match")  # 比赛按钮
@@ -60,12 +60,12 @@ class HomePage(BasePage):
 
     # 购买方案
     def buy_plan(self, buy_number, is_expert_benefits=None):
-        self.element_click(By.ID, self.id_home)    # 切换的有料页
-        self.have_news_tab("命中")                 # 切换到命中列表
+        self.element_click(By.ID, self.id_home)  # 切换的有料页
+        self.have_news_tab("命中")  # 切换到命中列表
         xpath_plan = "// *[@resource-id='com.inkr.sport:id/recyclerView']" \
                      "/android.view.ViewGroup[{}]/android.view.View[2]".format(buy_number)
         self.element_click(By.XPATH, xpath_plan)  # 点击第几个方案
-        self.element_click(By.ID, self.id_i_know_button)   # 点击我知道啦按钮
+        self.element_click(By.ID, self.id_i_know_button)  # 点击我知道啦按钮
         if is_expert_benefits == "yes":  # 判断有没有专家福利
             self.element_click(By.ID, self.id_publish_complete)
         else:

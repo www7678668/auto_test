@@ -2,7 +2,6 @@
 # @Time : 2023-03-28 9:18
 # @Author : zhangwen
 # @File : headline_page.py
-
 from appium.webdriver.common.mobileby import MobileBy as By
 from PageObject.home_page import HomePage
 from Common.utils import Utils

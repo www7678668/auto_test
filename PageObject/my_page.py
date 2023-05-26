@@ -3,9 +3,7 @@
 # @Author : zhangwen
 # @File : my_page.py
 import time
-
 from appium.webdriver.common.mobileby import MobileBy as By
-
 from Common.utils import Utils
 from PageObject.home_page import HomePage
 from Common.desired_cap import DesiredCap

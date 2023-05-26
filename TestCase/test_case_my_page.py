@@ -1,20 +1,25 @@
 # -- coding: utf-8 --
 # @Time : 2023-02-11 15:49
 # @Author : zhangwen
-# @File : test_case_my_page.py
-import allure
-import pytest, os
+# @File : tes
+# t_case_my_page.py
+#
+import pytest, os, sys
+sys.path.append((os.path.abspath(os.path.join(os.path.dirname(__file__), '../'))))
+
+print((os.path.abspath(os.path.join(os.path.dirname(__file__)))))
+from Common.desired_cap import DesiredCap
 from Common.AllPath import *
 from PageObject.my_page import MyPage
 from PageObject.headline_page import Headline
 from Common.utils import Utils
-from Common.desired_cap import desired_cap
+import allure
 
 
 class TestMapage:
     def setup_class(self):
         self.my_page = MyPage()
-        self.my_page.driver = desired_cap().desired_cap()
+        self.my_page.driver = DesiredCap.desired_cap()
         self.utils = Utils()  # 实例化工具类
         self.logger = self.utils.logs  # 实例化logger
         self.headline_page = Headline()
@@ -143,5 +148,7 @@ if __name__ == '__main__':
     pytest.main(['-s', "-q", 'test_case_my_page.py', '--alluredir', '../Report/allure-result', "--clean-alluredir"])
     # pytest.main(['-s', "-q", './test_login.py', '--alluredir', '../Report/allure-result'])
     os.system("allure generate {}/allure-result -o {}/allure-report  --clean".format(report_path, report_path))
-    a = Utils()
-    a.copy_history()
+
+    # a = Utils()
+    # a.copy_history()
+

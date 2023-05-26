@@ -2,7 +2,8 @@
 # @Time : 2023-02-06 11:32
 # @Author : zhangwen
 # @File : home_page.py
-
+import os, sys
+sys.path.append((os.path.abspath(os.path.join(os.path.dirname(__file__), '../'))))
 import time
 from selenium.webdriver.support.ui import WebDriverWait
 from selenium.webdriver.support import expected_conditions as ec

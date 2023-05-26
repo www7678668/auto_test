@@ -3,12 +3,12 @@
 # @Author : zhangwen
 # @File : home_page.py
 
-
 import configparser
 import logging
 import time
 from Common.AllPath import *
 import shutil
+import os, sys
 
 # 工具类实现
 class Utils:
@@ -21,6 +21,7 @@ class Utils:
         :return: 配置项key对应的value值
         """
         conf_path = os.path.join(config_path, filename+".ini")  # config文件路径，包含文件名
+        sys.path.append(conf_path)
         conf = configparser.ConfigParser()
         conf.read(conf_path, encoding="utf-8")
         config = conf.get(config_name, config_key)  # 获取配置key对应的值

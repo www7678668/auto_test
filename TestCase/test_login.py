@@ -4,10 +4,12 @@
 # @File : test_login.py
 import allure
 import pytest
+import pytest, os, sys
+sys.path.append((os.path.abspath(os.path.join(os.path.dirname(__file__), '../'))))
 from Common.AllPath import *
-from PageObject.my_page import MyPage
+#from PageObject.my_page import MyPage
 from Common.utils import Utils
-from Common.desired_cap import desired_cap
+#from Common.desired_cap import DesiredCap
 
 class TestMapage2:
     def setup_class(self):
@@ -28,11 +30,12 @@ class TestMapage2:
 
     @allure.feature("测试sn个文件")
     def test_ggogo3(self):
-        assert 5 == 7
+        assert 5 == 8
 
     @allure.feature("测试sn个文件")
     def test_ggogo4(self):
         assert 5 == 8
+
 
 if __name__ == '__main__':
     pytest.main(['-s', "-q", 'test_login.py', '--alluredir', '../Report/allure-result'])
@@ -43,3 +46,10 @@ if __name__ == '__main__':
     #os.system("allure generate {}/allure-result -o {}/allure-report  --clean".format(report_path, report_path))
     a = Utils()
     a.copy_history()
+
+# pytest -sv .\TestCase\test_login.py --alluredir /.\Report\allure-result --clean-alluredir
+#
+#pytest -sv .\TestCase\test_login.py --alluredir .\Report\allure-result --clean-alluredir
+
+
+# allure generate .\Report\allure-result -o .\Report\allure-report  --clean
