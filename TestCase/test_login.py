@@ -38,18 +38,17 @@ class TestMapage2:
 
 
 if __name__ == '__main__':
-    pytest.main(['-s', "-q", 'test_login.py', '--alluredir', '../Report/allure-result'])
-    os.system("allure generate {}/allure-result -o {}/allure-report  --clean".format(report_path, report_path))
+    # pytest.main(['-s', "-q", 'test_login.py', '--alluredir', '../Report/allure-result'])
+    # os.system("allure generate {}/allure-result -o {}/allure-report  --clean".format(report_path, report_path))
+    pytest.main(['-s', "-q", 'test_login.py', '--alluredir', './Report/allure-result'])
+    #os.system("allure generate ./Report/allure-result -o ./Report/allure-report  --clean")
 
     #pytest.main(['-s', "-q", 'test_case_my_page.py', '--alluredir', '../Report/allure-result'])
     # pytest.main(['-s', "-q", './test_login.py', '--alluredir', '../Report/allure-result'])
     #os.system("allure generate {}/allure-result -o {}/allure-report  --clean".format(report_path, report_path))
     a = Utils()
     a.copy_history()
-
-# pytest -sv .\TestCase\test_login.py --alluredir /.\Report\allure-result --clean-alluredir
 #
-#pytest -sv .\TestCase\test_login.py --alluredir .\Report\allure-result --clean-alluredir
-
-
+# pytest -sv .\TestCase\test_login.py --alluredir .\Report\allure-result --clean-alluredir
 # allure generate .\Report\allure-result -o .\Report\allure-report  --clean
+#pytest -sv .\TestCase\test_login.py  --alluredir=.\allure-result --clean-alluredir
