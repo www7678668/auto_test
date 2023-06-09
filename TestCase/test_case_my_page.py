@@ -148,6 +148,6 @@ if __name__ == '__main__':
     # pytest.main(['-s', "-q", './test_login.py', '--alluredir', '../Report/allure-result'])
     os.system("allure generate {}/allure-result -o {}/allure-report  --clean".format(report_path, report_path))
 
-    a = Utils()
-    a.copy_history()
+    # a = Utils()
+    # a.copy_history()
 
