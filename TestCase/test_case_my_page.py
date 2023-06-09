@@ -50,7 +50,7 @@ class TestMapage:
     def test_login_success(self):
         self.my_page.login_password("13000000015", "abc123456")
         assert self.my_page.get_user_value() != "登录/注册"
-    #
+
     # @allure.feature("发布一个竞足免费方案")
     # def test_publish_free_plan(self):
     #     self.my_page.publish_plan(
