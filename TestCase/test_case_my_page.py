@@ -3,14 +3,10 @@
 # @Author : zhangwen
 # @File : tes
 # t_case_my_page.py
-#
-import  os, sys
+
+import pytest, os, sys
 sys.path.append((os.path.abspath(os.path.join(os.path.dirname(__file__), '../'))))
 sys.path.append("C:\\Users\\Administrator\\AppData\\Roaming\\Python\\Python37\\site-packages")
-
-
-import pytest
-print((os.path.abspath(os.path.join(os.path.dirname(__file__)))))
 from Common.desired_cap import DesiredCap
 from Common.AllPath import *
 from PageObject.my_page import MyPage
@@ -152,6 +148,6 @@ if __name__ == '__main__':
     # pytest.main(['-s', "-q", './test_login.py', '--alluredir', '../Report/allure-result'])
     os.system("allure generate {}/allure-result -o {}/allure-report  --clean".format(report_path, report_path))
 
-    # a = Utils()
-    # a.copy_history()
+    a = Utils()
+    a.copy_history()
 
