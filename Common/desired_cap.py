@@ -3,10 +3,12 @@
 # @Author : zhangwen
 # @File : home_page.py
 
+import  os, sys
+
 # 手机启动配置
 from appium.webdriver import Remote  # 引入打开软件的包
 from Common import utils
-import warnings
+
 
 utils = utils.Utils()  # 实例化工具类
 logger = utils.logs  # 实例化log对象
