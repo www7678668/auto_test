@@ -1,0 +1,275 @@
+2023-04-27 15:18:06 INFO *********开始启动APP*********
+2023-04-27 15:18:06 INFO 手机参数：{'platformName': 'android', 'platformVersion': '12', 'deviceName': '127.0.0.1:7555', 'automationName': 'UiAutomator2', 'appPackage': 'com.inkr.sport', 'appActivity': 'com.inkr.sport.activities.SplashActivity'}
+2023-04-27 15:25:56 INFO *********开始启动APP*********
+2023-04-27 15:25:56 INFO 手机参数：{'platformName': 'android', 'platformVersion': '12', 'deviceName': '127.0.0.1:7555', 'automationName': 'UiAutomator2', 'appPackage': 'com.inkr.sport', 'appActivity': 'com.inkr.sport.activities.SplashActivity'}
+2023-04-27 15:26:04 INFO *********启动成功*********
+2023-04-27 15:26:04 INFO **************用例开始执行**************
+2023-04-27 15:26:05 INFO 查找元素'(('id', 'com.inkr.sport:id/tvPopAgreementAgree'),)'完成
+2023-04-27 15:26:05 INFO 点击元素'('id', 'com.inkr.sport:id/tvPopAgreementAgree')'完成
+2023-04-27 15:26:05 INFO 开始左滑
+2023-04-27 15:26:06 INFO 左滑1次
+2023-04-27 15:26:08 INFO 左滑2次
+2023-04-27 15:26:08 INFO 左滑完成
+2023-04-27 15:26:08 INFO 查找元素'(('id', 'com.inkr.sport:id/ivEnterApp'),)'完成
+2023-04-27 15:26:09 INFO 点击元素'('id', 'com.inkr.sport:id/ivEnterApp')'完成
+2023-04-27 15:26:14 INFO 查找元素'(('id', 'com.inkr.sport:id/ivTbMine'),)'完成
+2023-04-27 15:26:14 INFO 点击元素'('id', 'com.inkr.sport:id/ivTbMine')'完成
+2023-04-27 15:26:15 INFO 查找元素'(('id', 'com.inkr.sport:id/tvUserName'),)'完成
+2023-04-27 15:26:15 INFO 点击元素'('id', 'com.inkr.sport:id/tvUserName')'完成
+2023-04-27 15:26:46 INFO 查找元素'(('id', 'com.inkr.sport:id/tvAccountLogin'),)'完成
+2023-04-27 15:27:16 INFO 点击元素'('id', 'com.inkr.sport:id/tvAccountLogin')'完成
+2023-04-27 15:29:07 INFO 查找元素'(('id', 'com.inkr.sport:id/etPd'),)'完成
+2023-04-27 15:30:37 INFO 查找元素'(('id', 'com.inkr.sport:id/ivPolicyCheckBox'),)'完成
+2023-04-27 15:31:07 INFO 点击元素'('id', 'com.inkr.sport:id/ivPolicyCheckBox')'完成
+2023-04-27 15:31:38 INFO 查找元素'(('id', 'com.inkr.sport:id/btLogin'),)'完成
+2023-04-27 15:32:08 INFO 点击元素'('id', 'com.inkr.sport:id/btLogin')'完成
+2023-04-27 15:32:08 INFO 登录账号:23000000011 密码：abc123456
+2023-04-27 15:32:29 ERROR 获取元素'(('id', 'com.inkr.sport:id/tvUserName'),)'失败，原因：Message: 
+Stacktrace:
+NoSuchElementError: An element could not be located on the page using the given search parameters.
+    at AndroidUiautomator2Driver.findElOrEls (E:\Appium-Server-GUI-windows-1.22.3-4\resources\app\node_modules\appium\node_modules\appium-android-driver\lib\commands\find.js:75:11)
+    at runMicrotasks (<anonymous>)
+    at processTicksAndRejections (internal/process/task_queues.js:97:5)
+    at AndroidUiautomator2Driver.findElOrElsWithProcessing (E:\Appium-Server-GUI-windows-1.22.3-4\resources\app\node_modules\appium\node_modules\appium-base-driver\lib\basedriver\commands\find.js:33:12)
+    at AndroidUiautomator2Driver.findElement (E:\Appium-Server-GUI-windows-1.22.3-4\resources\app\node_modules\appium\node_modules\appium-base-driver\lib\basedriver\commands\find.js:53:10)
+2023-04-27 15:32:29 INFO **************用例执行结束**************
+2023-04-27 15:37:05 INFO *********开始启动APP*********
+2023-04-27 15:37:05 INFO 手机参数：{'platformName': 'android', 'platformVersion': '12', 'deviceName': '127.0.0.1:7555', 'automationName': 'UiAutomator2', 'appPackage': 'com.inkr.sport', 'appActivity': 'com.inkr.sport.activities.SplashActivity'}
+2023-04-27 15:37:12 INFO *********启动成功*********
+2023-04-27 15:37:12 INFO **************用例开始执行**************
+2023-04-27 15:37:12 INFO 查找元素'(('id', 'com.inkr.sport:id/tvPopAgreementAgree'),)'完成
+2023-04-27 15:37:12 INFO 点击元素'('id', 'com.inkr.sport:id/tvPopAgreementAgree')'完成
+2023-04-27 15:37:12 INFO 开始左滑
+2023-04-27 15:37:14 INFO 左滑1次
+2023-04-27 15:37:15 INFO 左滑2次
+2023-04-27 15:37:15 INFO 左滑完成
+2023-04-27 15:37:16 INFO 查找元素'(('id', 'com.inkr.sport:id/ivEnterApp'),)'完成
+2023-04-27 15:37:16 INFO 点击元素'('id', 'com.inkr.sport:id/ivEnterApp')'完成
+2023-04-27 15:37:19 INFO 查找元素'(('id', 'com.inkr.sport:id/ivTbMine'),)'完成
+2023-04-27 15:37:20 INFO 点击元素'('id', 'com.inkr.sport:id/ivTbMine')'完成
+2023-04-27 15:37:20 INFO 查找元素'(('id', 'com.inkr.sport:id/tvUserName'),)'完成
+2023-04-27 15:37:20 INFO 点击元素'('id', 'com.inkr.sport:id/tvUserName')'完成
+2023-04-27 15:37:50 INFO 查找元素'(('id', 'com.inkr.sport:id/tvAccountLogin'),)'完成
+2023-04-27 15:38:20 INFO 点击元素'('id', 'com.inkr.sport:id/tvAccountLogin')'完成
+2023-04-27 15:40:11 INFO 查找元素'(('id', 'com.inkr.sport:id/etPd'),)'完成
+2023-04-27 15:41:42 INFO 查找元素'(('id', 'com.inkr.sport:id/ivPolicyCheckBox'),)'完成
+2023-04-27 15:42:12 INFO 点击元素'('id', 'com.inkr.sport:id/ivPolicyCheckBox')'完成
+2023-04-27 15:42:42 INFO 查找元素'(('id', 'com.inkr.sport:id/btLogin'),)'完成
+2023-04-27 15:43:12 INFO 点击元素'('id', 'com.inkr.sport:id/btLogin')'完成
+2023-04-27 15:43:12 INFO 登录账号:23000000011 密码：abc123456
+2023-04-27 15:43:34 ERROR 获取元素'(('id', 'com.inkr.sport:id/tvUserName'),)'失败，原因：Message: 
+Stacktrace:
+NoSuchElementError: An element could not be located on the page using the given search parameters.
+    at AndroidUiautomator2Driver.findElOrEls (E:\Appium-Server-GUI-windows-1.22.3-4\resources\app\node_modules\appium\node_modules\appium-android-driver\lib\commands\find.js:75:11)
+    at processTicksAndRejections (internal/process/task_queues.js:97:5)
+    at AndroidUiautomator2Driver.findElOrElsWithProcessing (E:\Appium-Server-GUI-windows-1.22.3-4\resources\app\node_modules\appium\node_modules\appium-base-driver\lib\basedriver\commands\find.js:33:12)
+    at AndroidUiautomator2Driver.findElement (E:\Appium-Server-GUI-windows-1.22.3-4\resources\app\node_modules\appium\node_modules\appium-base-driver\lib\basedriver\commands\find.js:53:10)
+2023-04-27 15:43:34 INFO **************用例执行结束**************
+2023-04-27 15:49:51 INFO *********开始启动APP*********
+2023-04-27 15:49:51 INFO 手机参数：{'platformName': 'android', 'platformVersion': '12', 'deviceName': '127.0.0.1:7555', 'automationName': 'UiAutomator2', 'appPackage': 'com.inkr.sport', 'appActivity': 'com.inkr.sport.activities.SplashActivity'}
+2023-04-27 15:49:58 INFO *********启动成功*********
+2023-04-27 15:49:58 INFO **************用例开始执行**************
+2023-04-27 15:49:59 INFO 查找元素'(('id', 'com.inkr.sport:id/tvPopAgreementAgree'),)'完成
+2023-04-27 15:49:59 INFO 点击元素'('id', 'com.inkr.sport:id/tvPopAgreementAgree')'完成
+2023-04-27 15:49:59 INFO 开始左滑
+2023-04-27 15:50:00 INFO 左滑1次
+2023-04-27 15:50:01 INFO 左滑2次
+2023-04-27 15:50:01 INFO 左滑完成
+2023-04-27 15:50:02 INFO 查找元素'(('id', 'com.inkr.sport:id/ivEnterApp'),)'完成
+2023-04-27 15:50:03 INFO 点击元素'('id', 'com.inkr.sport:id/ivEnterApp')'完成
+2023-04-27 15:50:06 INFO 查找元素'(('id', 'com.inkr.sport:id/ivTbMine'),)'完成
+2023-04-27 15:50:07 INFO 点击元素'('id', 'com.inkr.sport:id/ivTbMine')'完成
+2023-04-27 15:50:07 INFO 查找元素'(('id', 'com.inkr.sport:id/tvUserName'),)'完成
+2023-04-27 15:50:07 INFO 点击元素'('id', 'com.inkr.sport:id/tvUserName')'完成
+2023-04-27 15:50:37 INFO 查找元素'(('id', 'com.inkr.sport:id/tvAccountLogin'),)'完成
+2023-04-27 15:51:07 INFO 点击元素'('id', 'com.inkr.sport:id/tvAccountLogin')'完成
+2023-04-27 15:52:58 INFO 查找元素'(('id', 'com.inkr.sport:id/etPd'),)'完成
+2023-04-27 15:54:29 INFO 查找元素'(('id', 'com.inkr.sport:id/ivPolicyCheckBox'),)'完成
+2023-04-27 15:54:59 INFO 点击元素'('id', 'com.inkr.sport:id/ivPolicyCheckBox')'完成
+2023-04-27 15:55:29 INFO 查找元素'(('id', 'com.inkr.sport:id/btLogin'),)'完成
+2023-04-27 15:55:59 INFO 点击元素'('id', 'com.inkr.sport:id/btLogin')'完成
+2023-04-27 15:55:59 INFO 登录账号:23000000011 密码：abc123456
+2023-04-27 15:56:29 INFO 查找元素'(('id', 'com.inkr.sport:id/ivAuthQQ'),)'完成
+2023-04-27 15:56:50 INFO 用户信息的value为：
+2023-04-27 15:56:50 INFO **************用例执行结束**************
+2023-04-27 15:58:59 INFO *********开始启动APP*********
+2023-04-27 15:58:59 INFO 手机参数：{'platformName': 'android', 'platformVersion': '12', 'deviceName': '127.0.0.1:7555', 'automationName': 'UiAutomator2', 'appPackage': 'com.inkr.sport', 'appActivity': 'com.inkr.sport.activities.SplashActivity'}
+2023-04-27 15:59:05 INFO *********启动成功*********
+2023-04-27 15:59:05 INFO **************用例开始执行**************
+2023-04-27 15:59:06 INFO 查找元素'(('id', 'com.inkr.sport:id/tvPopAgreementAgree'),)'完成
+2023-04-27 15:59:07 INFO 点击元素'('id', 'com.inkr.sport:id/tvPopAgreementAgree')'完成
+2023-04-27 15:59:07 INFO 开始左滑
+2023-04-27 15:59:08 INFO 左滑1次
+2023-04-27 15:59:09 INFO 左滑2次
+2023-04-27 15:59:09 INFO 左滑完成
+2023-04-27 15:59:10 INFO 查找元素'(('id', 'com.inkr.sport:id/ivEnterApp'),)'完成
+2023-04-27 15:59:10 INFO 点击元素'('id', 'com.inkr.sport:id/ivEnterApp')'完成
+2023-04-27 15:59:14 INFO 查找元素'(('id', 'com.inkr.sport:id/ivTbMine'),)'完成
+2023-04-27 15:59:15 INFO 点击元素'('id', 'com.inkr.sport:id/ivTbMine')'完成
+2023-04-27 15:59:15 INFO 查找元素'(('id', 'com.inkr.sport:id/tvUserName'),)'完成
+2023-04-27 15:59:15 INFO 点击元素'('id', 'com.inkr.sport:id/tvUserName')'完成
+2023-04-27 15:59:45 INFO 查找元素'(('id', 'com.inkr.sport:id/tvAccountLogin'),)'完成
+2023-04-27 16:00:15 INFO 点击元素'('id', 'com.inkr.sport:id/tvAccountLogin')'完成
+2023-04-27 16:02:06 INFO 查找元素'(('id', 'com.inkr.sport:id/etPd'),)'完成
+2023-04-27 16:03:37 INFO 查找元素'(('id', 'com.inkr.sport:id/ivPolicyCheckBox'),)'完成
+2023-04-27 16:04:07 INFO 点击元素'('id', 'com.inkr.sport:id/ivPolicyCheckBox')'完成
+2023-04-27 16:04:37 INFO 查找元素'(('id', 'com.inkr.sport:id/btLogin'),)'完成
+2023-04-27 16:05:07 INFO 点击元素'('id', 'com.inkr.sport:id/btLogin')'完成
+2023-04-27 16:05:07 INFO 登录账号:23000000011 密码：abc123456
+2023-04-27 16:05:37 INFO 查找元素'(('id', 'com.inkr.sport:id/ivAuthQQ'),)'完成
+2023-04-27 16:05:57 INFO 用户信息的value为：com.inkr.sport:id/ivAuthQQ
+2023-04-27 16:05:57 INFO **************用例执行结束**************
+2023-04-27 16:07:18 INFO *********开始启动APP*********
+2023-04-27 16:07:18 INFO 手机参数：{'platformName': 'android', 'platformVersion': '12', 'deviceName': '127.0.0.1:7555', 'automationName': 'UiAutomator2', 'appPackage': 'com.inkr.sport', 'appActivity': 'com.inkr.sport.activities.SplashActivity'}
+2023-04-27 16:07:23 INFO *********启动成功*********
+2023-04-27 16:07:23 INFO **************用例开始执行**************
+2023-04-27 16:07:24 INFO 查找元素'(('id', 'com.inkr.sport:id/tvPopAgreementAgree'),)'完成
+2023-04-27 16:07:24 INFO 点击元素'('id', 'com.inkr.sport:id/tvPopAgreementAgree')'完成
+2023-04-27 16:07:24 INFO 开始左滑
+2023-04-27 16:07:25 INFO 左滑1次
+2023-04-27 16:07:27 INFO 左滑2次
+2023-04-27 16:07:27 INFO 左滑完成
+2023-04-27 16:07:28 INFO 查找元素'(('id', 'com.inkr.sport:id/ivEnterApp'),)'完成
+2023-04-27 16:07:28 INFO 点击元素'('id', 'com.inkr.sport:id/ivEnterApp')'完成
+2023-04-27 16:07:33 INFO 查找元素'(('id', 'com.inkr.sport:id/ivTbMine'),)'完成
+2023-04-27 16:07:33 INFO 点击元素'('id', 'com.inkr.sport:id/ivTbMine')'完成
+2023-04-27 16:07:33 INFO 查找元素'(('id', 'com.inkr.sport:id/tvUserName'),)'完成
+2023-04-27 16:07:43 INFO 点击元素'('id', 'com.inkr.sport:id/tvUserName')'完成
+2023-04-27 16:08:13 INFO 查找元素'(('id', 'com.inkr.sport:id/tvAccountLogin'),)'完成
+2023-04-27 16:08:44 INFO 点击元素'('id', 'com.inkr.sport:id/tvAccountLogin')'完成
+2023-04-27 16:10:34 INFO 查找元素'(('id', 'com.inkr.sport:id/etPd'),)'完成
+2023-04-27 16:12:05 INFO 查找元素'(('id', 'com.inkr.sport:id/ivPolicyCheckBox'),)'完成
+2023-04-27 16:12:35 INFO 点击元素'('id', 'com.inkr.sport:id/ivPolicyCheckBox')'完成
+2023-04-27 16:13:06 INFO 查找元素'(('id', 'com.inkr.sport:id/btLogin'),)'完成
+2023-04-27 16:13:36 INFO 点击元素'('id', 'com.inkr.sport:id/btLogin')'完成
+2023-04-27 16:13:36 INFO 登录账号:23000000011 密码：abc123456
+2023-04-27 16:14:06 INFO 查找元素'(('id', 'com.inkr.sport:id/ivAuthQQ'),)'完成
+2023-04-27 16:14:26 INFO 用户信息的value为：com.inkr.sport:id/ivAuthQQ
+2023-04-27 16:14:56 INFO 查找元素'(('id', 'com.inkr.sport:id/tvAccountLogin'),)'完成
+2023-04-27 16:15:27 INFO 点击元素'('id', 'com.inkr.sport:id/tvAccountLogin')'完成
+2023-04-27 16:17:17 INFO 查找元素'(('id', 'com.inkr.sport:id/etPd'),)'完成
+2023-04-27 16:18:48 INFO 查找元素'(('id', 'com.inkr.sport:id/ivPolicyCheckBox'),)'完成
+2023-04-27 16:19:18 INFO 点击元素'('id', 'com.inkr.sport:id/ivPolicyCheckBox')'完成
+2023-04-27 16:19:48 INFO 查找元素'(('id', 'com.inkr.sport:id/btLogin'),)'完成
+2023-04-27 16:20:09 INFO 点击元素'('id', 'com.inkr.sport:id/btLogin')'完成
+2023-04-27 16:20:09 INFO 登录账号:33000000011 密码：ab555c123456
+2023-04-27 16:20:29 ERROR 获取元素'(('id', 'com.inkr.sport:id/ivAuthQQ'),)'失败，原因：Message: 
+Stacktrace:
+NoSuchElementError: An element could not be located on the page using the given search parameters.
+    at AndroidUiautomator2Driver.findElOrEls (E:\Appium-Server-GUI-windows-1.22.3-4\resources\app\node_modules\appium\node_modules\appium-android-driver\lib\commands\find.js:75:11)
+    at runMicrotasks (<anonymous>)
+    at processTicksAndRejections (internal/process/task_queues.js:97:5)
+    at AndroidUiautomator2Driver.findElOrElsWithProcessing (E:\Appium-Server-GUI-windows-1.22.3-4\resources\app\node_modules\appium\node_modules\appium-base-driver\lib\basedriver\commands\find.js:33:12)
+    at AndroidUiautomator2Driver.findElement (E:\Appium-Server-GUI-windows-1.22.3-4\resources\app\node_modules\appium\node_modules\appium-base-driver\lib\basedriver\commands\find.js:53:10)
+2023-04-27 16:20:29 INFO **************用例执行结束**************
+2023-04-27 16:22:30 INFO *********开始启动APP*********
+2023-04-27 16:22:30 INFO 手机参数：{'platformName': 'android', 'platformVersion': '12', 'deviceName': '127.0.0.1:7555', 'automationName': 'UiAutomator2', 'appPackage': 'com.inkr.sport', 'appActivity': 'com.inkr.sport.activities.SplashActivity'}
+2023-04-27 16:22:37 INFO *********启动成功*********
+2023-04-27 16:22:37 INFO **************用例开始执行**************
+2023-04-27 16:22:57 ERROR 获取元素'(('id', 'com.inkr.sport:id/tvAccountLogin'),)'失败，原因：Message: 
+Stacktrace:
+NoSuchElementError: An element could not be located on the page using the given search parameters.
+    at AndroidUiautomator2Driver.findElOrEls (E:\Appium-Server-GUI-windows-1.22.3-4\resources\app\node_modules\appium\node_modules\appium-android-driver\lib\commands\find.js:75:11)
+    at runMicrotasks (<anonymous>)
+    at processTicksAndRejections (internal/process/task_queues.js:97:5)
+    at AndroidUiautomator2Driver.findElOrElsWithProcessing (E:\Appium-Server-GUI-windows-1.22.3-4\resources\app\node_modules\appium\node_modules\appium-base-driver\lib\basedriver\commands\find.js:33:12)
+    at AndroidUiautomator2Driver.findElement (E:\Appium-Server-GUI-windows-1.22.3-4\resources\app\node_modules\appium\node_modules\appium-base-driver\lib\basedriver\commands\find.js:53:10)
+2023-04-27 16:22:57 INFO **************用例执行结束**************
+2023-04-27 16:23:10 INFO *********开始启动APP*********
+2023-04-27 16:23:10 INFO 手机参数：{'platformName': 'android', 'platformVersion': '12', 'deviceName': '127.0.0.1:7555', 'automationName': 'UiAutomator2', 'appPackage': 'com.inkr.sport', 'appActivity': 'com.inkr.sport.activities.SplashActivity'}
+2023-04-27 16:23:17 INFO *********启动成功*********
+2023-04-27 16:23:17 INFO **************用例开始执行**************
+2023-04-27 16:23:37 ERROR 获取元素'(('id', 'com.inkr.sport:id/tvAccountLogin'),)'失败，原因：Message: 
+Stacktrace:
+NoSuchElementError: An element could not be located on the page using the given search parameters.
+    at AndroidUiautomator2Driver.findElOrEls (E:\Appium-Server-GUI-windows-1.22.3-4\resources\app\node_modules\appium\node_modules\appium-android-driver\lib\commands\find.js:75:11)
+    at runMicrotasks (<anonymous>)
+    at processTicksAndRejections (internal/process/task_queues.js:97:5)
+    at AndroidUiautomator2Driver.findElOrElsWithProcessing (E:\Appium-Server-GUI-windows-1.22.3-4\resources\app\node_modules\appium\node_modules\appium-base-driver\lib\basedriver\commands\find.js:33:12)
+    at AndroidUiautomator2Driver.findElement (E:\Appium-Server-GUI-windows-1.22.3-4\resources\app\node_modules\appium\node_modules\appium-base-driver\lib\basedriver\commands\find.js:53:10)
+2023-04-27 16:23:37 INFO **************用例执行结束**************
+2023-04-27 16:24:35 INFO *********开始启动APP*********
+2023-04-27 16:24:35 INFO 手机参数：{'platformName': 'android', 'platformVersion': '12', 'deviceName': '127.0.0.1:7555', 'automationName': 'UiAutomator2', 'appPackage': 'com.inkr.sport', 'appActivity': 'com.inkr.sport.activities.SplashActivity'}
+2023-04-27 16:24:41 INFO *********启动成功*********
+2023-04-27 16:24:41 INFO **************用例开始执行**************
+2023-04-27 16:24:45 INFO **************用例执行结束**************
+2023-04-27 16:35:31 INFO *********开始启动APP*********
+2023-04-27 16:35:31 INFO 手机参数：{'platformName': 'android', 'platformVersion': '12', 'deviceName': '127.0.0.1:7555', 'automationName': 'UiAutomator2', 'appPackage': 'com.inkr.sport', 'appActivity': 'com.inkr.sport.activities.SplashActivity'}
+2023-04-27 16:35:38 INFO *********启动成功*********
+2023-04-27 16:35:38 INFO **************用例开始执行**************
+2023-04-27 16:35:38 INFO 查找元素'(('id', 'com.inkr.sport:id/tvPopAgreementAgree'),)'完成
+2023-04-27 16:35:38 INFO 点击元素'('id', 'com.inkr.sport:id/tvPopAgreementAgree')'完成
+2023-04-27 16:35:38 INFO 开始左滑
+2023-04-27 16:35:40 INFO 左滑1次
+2023-04-27 16:35:41 INFO 左滑2次
+2023-04-27 16:35:41 INFO 左滑完成
+2023-04-27 16:35:42 INFO 查找元素'(('id', 'com.inkr.sport:id/ivEnterApp'),)'完成
+2023-04-27 16:35:42 INFO 点击元素'('id', 'com.inkr.sport:id/ivEnterApp')'完成
+2023-04-27 16:35:46 INFO 查找元素'(('id', 'com.inkr.sport:id/ivTbMine'),)'完成
+2023-04-27 16:35:47 INFO 点击元素'('id', 'com.inkr.sport:id/ivTbMine')'完成
+2023-04-27 16:35:47 INFO 查找元素'(('id', 'com.inkr.sport:id/tvUserName'),)'完成
+2023-04-27 16:35:47 INFO 点击元素'('id', 'com.inkr.sport:id/tvUserName')'完成
+2023-04-27 16:36:17 INFO 查找元素'(('id', 'com.inkr.sport:id/tvAccountLogin'),)'完成
+2023-04-27 16:36:47 INFO 点击元素'('id', 'com.inkr.sport:id/tvAccountLogin')'完成
+2023-04-27 16:38:38 INFO 查找元素'(('id', 'com.inkr.sport:id/etPd'),)'完成
+2023-04-27 16:40:09 INFO 查找元素'(('id', 'com.inkr.sport:id/ivPolicyCheckBox'),)'完成
+2023-04-27 16:40:39 INFO 点击元素'('id', 'com.inkr.sport:id/ivPolicyCheckBox')'完成
+2023-04-27 16:41:09 INFO 查找元素'(('id', 'com.inkr.sport:id/btLogin'),)'完成
+2023-04-27 16:41:39 INFO 点击元素'('id', 'com.inkr.sport:id/btLogin')'完成
+2023-04-27 16:41:39 INFO 登录账号:23000000011 密码：abc123456
+2023-04-27 16:42:09 INFO 查找元素'(('id', 'com.inkr.sport:id/ivAuthQQ'),)'完成
+2023-04-27 16:42:30 INFO 用户信息的value为：com.inkr.sport:id/ivAuthQQ
+2023-04-27 16:43:00 INFO 查找元素'(('id', 'com.inkr.sport:id/tvAccountLogin'),)'完成
+2023-04-27 16:43:30 INFO 点击元素'('id', 'com.inkr.sport:id/tvAccountLogin')'完成
+2023-04-27 16:45:21 INFO 查找元素'(('id', 'com.inkr.sport:id/etPd'),)'完成
+2023-04-27 16:46:51 INFO 查找元素'(('id', 'com.inkr.sport:id/ivPolicyCheckBox'),)'完成
+2023-04-27 16:47:21 INFO 点击元素'('id', 'com.inkr.sport:id/ivPolicyCheckBox')'完成
+2023-04-27 16:47:51 INFO 查找元素'(('id', 'com.inkr.sport:id/btLogin'),)'完成
+2023-04-27 16:48:12 INFO 点击元素'('id', 'com.inkr.sport:id/btLogin')'完成
+2023-04-27 16:48:12 INFO 登录账号:33000000011 密码：ab555c123456
+2023-04-27 16:48:33 ERROR 获取元素'(('id', 'com.inkr.sport:id/ivAuthQQ'),)'失败，原因：Message: 
+Stacktrace:
+NoSuchElementError: An element could not be located on the page using the given search parameters.
+    at AndroidUiautomator2Driver.findElOrEls (E:\Appium-Server-GUI-windows-1.22.3-4\resources\app\node_modules\appium\node_modules\appium-android-driver\lib\commands\find.js:75:11)
+    at runMicrotasks (<anonymous>)
+    at processTicksAndRejections (internal/process/task_queues.js:97:5)
+    at AndroidUiautomator2Driver.findElOrElsWithProcessing (E:\Appium-Server-GUI-windows-1.22.3-4\resources\app\node_modules\appium\node_modules\appium-base-driver\lib\basedriver\commands\find.js:33:12)
+    at AndroidUiautomator2Driver.findElement (E:\Appium-Server-GUI-windows-1.22.3-4\resources\app\node_modules\appium\node_modules\appium-base-driver\lib\basedriver\commands\find.js:53:10)
+2023-04-27 16:48:33 INFO **************用例执行结束**************
+2023-04-27 16:51:49 INFO *********开始启动APP*********
+2023-04-27 16:51:49 INFO 手机参数：{'platformName': 'android', 'platformVersion': '12', 'deviceName': '127.0.0.1:7555', 'automationName': 'UiAutomator2', 'appPackage': 'com.inkr.sport', 'appActivity': 'com.inkr.sport.activities.SplashActivity'}
+2023-04-27 16:51:56 INFO *********启动成功*********
+2023-04-27 16:51:56 INFO **************用例开始执行**************
+2023-04-27 16:51:57 INFO 查找元素'(('id', 'com.inkr.sport:id/tvPopAgreementAgree'),)'完成
+2023-04-27 16:51:57 INFO 点击元素'('id', 'com.inkr.sport:id/tvPopAgreementAgree')'完成
+2023-04-27 16:51:57 INFO 开始左滑
+2023-04-27 16:51:58 INFO 左滑1次
+2023-04-27 16:51:59 INFO 左滑2次
+2023-04-27 16:51:59 INFO 左滑完成
+2023-04-27 16:52:00 INFO 查找元素'(('id', 'com.inkr.sport:id/ivEnterApp'),)'完成
+2023-04-27 16:52:01 INFO 点击元素'('id', 'com.inkr.sport:id/ivEnterApp')'完成
+2023-04-27 16:52:04 INFO 查找元素'(('id', 'com.inkr.sport:id/ivTbMine'),)'完成
+2023-04-27 16:52:05 INFO 点击元素'('id', 'com.inkr.sport:id/ivTbMine')'完成
+2023-04-27 16:52:05 INFO 查找元素'(('id', 'com.inkr.sport:id/tvUserName'),)'完成
+2023-04-27 16:52:16 INFO 点击元素'('id', 'com.inkr.sport:id/tvUserName')'完成
+2023-04-27 16:52:46 INFO 查找元素'(('id', 'com.inkr.sport:id/tvAccountLogin'),)'完成
+2023-04-27 16:53:16 INFO 点击元素'('id', 'com.inkr.sport:id/tvAccountLogin')'完成
+2023-04-27 16:55:07 INFO 查找元素'(('id', 'com.inkr.sport:id/etPd'),)'完成
+2023-04-27 16:56:37 INFO 查找元素'(('id', 'com.inkr.sport:id/ivPolicyCheckBox'),)'完成
+2023-04-27 16:57:08 INFO 点击元素'('id', 'com.inkr.sport:id/ivPolicyCheckBox')'完成
+2023-04-27 16:57:38 INFO 查找元素'(('id', 'com.inkr.sport:id/btLogin'),)'完成
+2023-04-27 16:58:08 INFO 点击元素'('id', 'com.inkr.sport:id/btLogin')'完成
+2023-04-27 16:58:08 INFO 登录账号:23000000011 密码：abc123456
+2023-04-27 16:58:38 INFO 查找元素'(('id', 'com.inkr.sport:id/ivAuthQQ'),)'完成
+2023-04-27 16:58:58 INFO 用户信息的value为：com.inkr.sport:id/ivAuthQQ
+2023-04-27 16:59:29 INFO 查找元素'(('id', 'com.inkr.sport:id/tvAccountLogin'),)'完成
+2023-04-27 16:59:59 INFO 点击元素'('id', 'com.inkr.sport:id/tvAccountLogin')'完成
+2023-04-27 17:01:49 INFO 查找元素'(('id', 'com.inkr.sport:id/etPd'),)'完成
+2023-04-27 17:03:20 INFO 查找元素'(('id', 'com.inkr.sport:id/ivPolicyCheckBox'),)'完成
+2023-04-27 17:03:50 INFO 点击元素'('id', 'com.inkr.sport:id/ivPolicyCheckBox')'完成
+2023-04-27 17:04:20 INFO 查找元素'(('id', 'com.inkr.sport:id/btLogin'),)'完成
+2023-04-27 17:04:41 INFO 点击元素'('id', 'com.inkr.sport:id/btLogin')'完成
+2023-04-27 17:04:41 INFO 登录账号:33000000011 密码：ab555c123456
+2023-04-27 17:05:15 INFO 查找元素'(('id', 'com.inkr.sport:id/ivAuthQQ'),)'完成
+2023-04-27 17:05:35 INFO 用户信息的value为：com.inkr.sport:id/ivAuthQQ
+2023-04-27 17:05:35 INFO **************用例执行结束**************

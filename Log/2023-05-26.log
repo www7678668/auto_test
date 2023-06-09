@@ -1,0 +1,6 @@
+2023-05-26 11:46:55 INFO *********开始启动APP*********
+2023-05-26 11:46:55 INFO 手机参数：{'platformName': 'android', 'platformVersion': '12', 'deviceName': '127.0.0.1:7555', 'automationName': 'UiAutomator2', 'appPackage': 'com.inkr.sport', 'appActivity': 'com.inkr.sport.activities.SplashActivity'}
+2023-05-26 14:12:42 INFO *********开始启动APP*********
+2023-05-26 14:12:42 INFO 手机参数：{'platformName': 'android', 'platformVersion': '12', 'deviceName': '127.0.0.1:7555', 'automationName': 'UiAutomator2', 'appPackage': 'com.inkr.sport', 'appActivity': 'com.inkr.sport.activities.SplashActivity'}
+2023-05-26 14:13:20 INFO *********开始启动APP*********
+2023-05-26 14:13:20 INFO 手机参数：{'platformName': 'android', 'platformVersion': '12', 'deviceName': '127.0.0.1:7555', 'automationName': 'UiAutomator2', 'appPackage': 'com.inkr.sport', 'appActivity': 'com.inkr.sport.activities.SplashActivity'}

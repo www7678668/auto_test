@@ -1,0 +1,14 @@
+2023-06-08 16:21:16 INFO *********开始启动APP*********
+2023-06-08 16:21:16 INFO 手机参数：{'platformName': 'android', 'platformVersion': '12', 'deviceName': '127.0.0.1:7555', 'automationName': 'UiAutomator2', 'appPackage': 'com.inkr.sport', 'appActivity': 'com.inkr.sport.activities.SplashActivity'}
+2023-06-08 16:21:18 WARNING Retrying (Retry(total=2, connect=None, read=None, redirect=None, status=None)) after connection broken by 'NewConnectionError('<urllib3.connection.HTTPConnection object at 0x0000021F1F0F2DC8>: Failed to establish a new connection: [WinError 10061] 由于目标计算机积极拒绝，无法连接。')': /wd/hub/session
+2023-06-08 16:21:42 INFO *********开始启动APP*********
+2023-06-08 16:21:42 INFO 手机参数：{'platformName': 'android', 'platformVersion': '12', 'deviceName': '127.0.0.1:7555', 'automationName': 'UiAutomator2', 'appPackage': 'com.inkr.sport', 'appActivity': 'com.inkr.sport.activities.SplashActivity'}
+2023-06-08 16:22:33 INFO *********开始启动APP*********
+2023-06-08 16:22:33 INFO 手机参数：{'platformName': 'android', 'platformVersion': '12', 'deviceName': '127.0.0.1:7555', 'automationName': 'UiAutomator2', 'appPackage': 'com.inkr.sport', 'appActivity': 'com.inkr.sport.activities.SplashActivity'}
+2023-06-08 16:23:22 INFO *********开始启动APP*********
+2023-06-08 16:23:22 INFO 手机参数：{'platformName': 'android', 'platformVersion': '12', 'deviceName': '127.0.0.1:7555', 'automationName': 'UiAutomator2', 'appPackage': 'com.inkr.sport', 'appActivity': 'com.inkr.sport.activities.SplashActivity'}
+2023-06-08 16:24:34 INFO *********开始启动APP*********
+2023-06-08 16:24:34 INFO 手机参数：{'platformName': 'android', 'platformVersion': '12', 'deviceName': '127.0.0.1:7555', 'automationName': 'UiAutomator2', 'appPackage': 'com.inkr.sport', 'appActivity': 'com.inkr.sport.activities.SplashActivity'}
+2023-06-08 16:26:07 INFO *********开始启动APP*********
+2023-06-08 16:26:07 INFO 手机参数：{'platformName': 'android', 'platformVersion': '12', 'deviceName': '127.0.0.1:7555', 'automationName': 'UiAutomator2', 'appPackage': 'com.inkr.sport', 'appActivity': 'com.inkr.sport.activities.SplashActivity'}
+2023-06-08 16:26:15 INFO *********启动成功*********

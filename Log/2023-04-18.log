@@ -1,0 +1,665 @@
+2023-04-18 16:05:05 INFO *********开始启动APP*********
+2023-04-18 16:05:05 INFO 手机参数：{'platformName': 'android', 'platformVersion': '12', 'deviceName': '127.0.0.1:7555', 'automationName': 'UiAutomator2', 'appPackage': 'com.inkr.sport', 'appActivity': 'com.inkr.sport.activities.SplashActivity'}
+2023-04-18 16:05:13 INFO *********启动成功*********
+2023-04-18 16:05:13 INFO **************用例开始执行**************
+2023-04-18 16:05:13 INFO 查找元素'(('id', 'com.inkr.sport:id/tvPopAgreementAgree'),)'完成
+2023-04-18 16:05:14 INFO 点击元素'('id', 'com.inkr.sport:id/tvPopAgreementAgree')'完成
+2023-04-18 16:05:14 INFO 开始左滑
+2023-04-18 16:05:16 INFO 左滑1次
+2023-04-18 16:05:17 INFO 左滑2次
+2023-04-18 16:05:17 INFO 左滑完成
+2023-04-18 16:05:18 INFO 查找元素'(('id', 'com.inkr.sport:id/ivEnterApp'),)'完成
+2023-04-18 16:05:18 INFO 点击元素'('id', 'com.inkr.sport:id/ivEnterApp')'完成
+2023-04-18 16:05:21 INFO 查找元素'(('id', 'com.inkr.sport:id/ivTbMine'),)'完成
+2023-04-18 16:05:22 INFO 点击元素'('id', 'com.inkr.sport:id/ivTbMine')'完成
+2023-04-18 16:05:22 INFO 查找元素'(('id', 'com.inkr.sport:id/tvUserName'),)'完成
+2023-04-18 16:05:22 INFO 点击元素'('id', 'com.inkr.sport:id/tvUserName')'完成
+2023-04-18 16:05:52 INFO 查找元素'(('id', 'com.inkr.sport:id/tvAccountLogin'),)'完成
+2023-04-18 16:06:22 INFO 点击元素'('id', 'com.inkr.sport:id/tvAccountLogin')'完成
+2023-04-18 16:08:13 INFO 查找元素'(('id', 'com.inkr.sport:id/etPd'),)'完成
+2023-04-18 16:09:43 INFO 查找元素'(('id', 'com.inkr.sport:id/ivPolicyCheckBox'),)'完成
+2023-04-18 16:10:14 INFO 点击元素'('id', 'com.inkr.sport:id/ivPolicyCheckBox')'完成
+2023-04-18 16:10:44 INFO 查找元素'(('id', 'com.inkr.sport:id/btLogin'),)'完成
+2023-04-18 16:11:05 INFO 点击元素'('id', 'com.inkr.sport:id/btLogin')'完成
+2023-04-18 16:11:05 INFO 登录成功账号:13000000014 密码：abc123456
+2023-04-18 16:11:07 INFO 查找元素'(('id', 'com.inkr.sport:id/tvUserName'),)'完成
+2023-04-18 16:11:07 INFO 用户信息的value为：体育用户2
+2023-04-18 16:11:07 INFO 查找元素'(('id', 'com.inkr.sport:id/tvExpert'),)'完成
+2023-04-18 16:11:07 INFO 点击元素'('id', 'com.inkr.sport:id/tvExpert')'完成
+2023-04-18 16:11:08 INFO 查找元素'(('id', 'com.inkr.sport:id/tvMenuName'),)'完成
+2023-04-18 16:11:08 INFO 点击元素'('id', 'com.inkr.sport:id/tvMenuName')'完成
+2023-04-18 16:11:09 INFO 查找元素'(('id', 'com.inkr.sport:id/tvNotMind'),)'完成
+2023-04-18 16:11:09 INFO 点击元素'('id', 'com.inkr.sport:id/tvNotMind')'完成
+2023-04-18 16:11:10 INFO 查找元素'(('id', 'com.inkr.sport:id/tvConfirm'),)'完成
+2023-04-18 16:11:10 INFO 点击元素'('id', 'com.inkr.sport:id/tvConfirm')'完成
+2023-04-18 16:11:11 INFO 查找元素'(('id', 'com.inkr.sport:id/tvIKnow'),)'完成
+2023-04-18 16:11:11 INFO 点击元素'('id', 'com.inkr.sport:id/tvIKnow')'完成
+2023-04-18 16:11:11 INFO 查找元素'(('id', 'com.inkr.sport:id/rlAddMatch'),)'完成
+2023-04-18 16:11:14 INFO 点击元素'('id', 'com.inkr.sport:id/rlAddMatch')'完成
+2023-04-18 16:11:15 INFO 查找元素'(('xpath', '//*[@resource-id="com.inkr.sport:id/recyclerView"]/android.view.ViewGroup[6]'),)'完成
+2023-04-18 16:11:15 INFO 点击元素'('xpath', '//*[@resource-id="com.inkr.sport:id/recyclerView"]/android.view.ViewGroup[6]')'完成
+2023-04-18 16:11:16 INFO 查找元素'(('id', 'com.inkr.sport:id/tvDraft'),)'完成
+2023-04-18 16:11:16 INFO 查找元素'(('xpath', "//*[@text='胜负过关']"),)'完成
+2023-04-18 16:11:16 INFO 点击元素'('xpath', "//*[@text='胜负过关']")'完成
+2023-04-18 16:11:16 INFO 选择的玩法类型：北单，选择了第5场比赛，选择的玩法方式：胜负过关
+2023-04-18 16:11:16 ERROR 获取第三个元素失败，原因list index out of range，默认选择第一个推荐结果
+2023-04-18 16:11:16 INFO 不能选择主推次推1
+2023-04-18 16:11:16 INFO 查找元素'(('id', 'com.inkr.sport:id/firstItem'),)'完成
+2023-04-18 16:11:16 INFO 点击元素'('id', 'com.inkr.sport:id/firstItem')'完成
+2023-04-18 16:11:16 INFO 不选择其他玩法
+2023-04-18 16:11:17 INFO 查找元素'(('xpath', '//*[@resource-id ="com.inkr.sport:id/glPrice"]/android.view.ViewGroup[2]'),)'完成
+2023-04-18 16:11:17 INFO 点击元素'('xpath', '//*[@resource-id ="com.inkr.sport:id/glPrice"]/android.view.ViewGroup[2]')'完成
+2023-04-18 16:11:17 INFO 开始上滑
+2023-04-18 16:11:17 INFO 上滑完成
+2023-04-18 16:11:17 INFO 不选择促销信息
+2023-04-18 16:11:18 INFO 查找元素'现金红包'完成
+2023-04-18 16:11:19 INFO 点击元素'现金红包'完成
+2023-04-18 16:11:19 INFO 查找元素'(('id', 'com.inkr.sport:id/tvSelectGoods'),)'完成
+2023-04-18 16:11:20 INFO 点击元素'('id', 'com.inkr.sport:id/tvSelectGoods')'完成
+2023-04-18 16:11:20 INFO 点击元素'('id', 'com.inkr.sport:id/ivAward')'完成
+2023-04-18 16:11:21 INFO 查找元素'(('id', 'com.inkr.sport:id/tvAllNum'),)'完成
+2023-04-18 16:11:21 INFO 点击元素'('id', 'com.inkr.sport:id/tvAllNum')'完成
+2023-04-18 16:11:22 INFO 查找元素'(('id', 'com.inkr.sport:id/tvTitle'),)'完成
+2023-04-18 16:11:23 INFO 点击元素'('id', 'com.inkr.sport:id/tvTitle')'完成
+2023-04-18 16:11:23 INFO 查找元素'(('id', 'com.inkr.sport:id/etContent'),)'完成
+2023-04-18 16:11:24 INFO 查找元素'(('id', 'com.inkr.sport:id/tvConfirm'),)'完成
+2023-04-18 16:11:25 INFO 点击元素'('id', 'com.inkr.sport:id/tvConfirm')'完成
+2023-04-18 16:11:25 INFO 查找元素'(('id', 'com.inkr.sport:id/tvRecommend'),)'完成
+2023-04-18 16:11:26 INFO 点击元素'('id', 'com.inkr.sport:id/tvRecommend')'完成
+2023-04-18 16:11:26 INFO 查找元素'(('id', 'com.inkr.sport:id/etContent'),)'完成
+2023-04-18 16:11:27 INFO 查找元素'(('id', 'com.inkr.sport:id/tvConfirm'),)'完成
+2023-04-18 16:11:27 INFO 点击元素'('id', 'com.inkr.sport:id/tvConfirm')'完成
+2023-04-18 16:11:28 INFO 查找元素'(('id', 'com.inkr.sport:id/tvContent'),)'完成
+2023-04-18 16:11:29 INFO 点击元素'('id', 'com.inkr.sport:id/tvContent')'完成
+2023-04-18 16:11:29 INFO 查找元素'(('id', 'com.inkr.sport:id/etContent'),)'完成
+2023-04-18 16:11:30 INFO 查找元素'(('id', 'com.inkr.sport:id/tvConfirm'),)'完成
+2023-04-18 16:11:31 INFO 点击元素'('id', 'com.inkr.sport:id/tvConfirm')'完成
+2023-04-18 16:11:31 INFO 查找元素'(('id', 'com.inkr.sport:id/tvPublish'),)'完成
+2023-04-18 16:11:32 INFO 点击元素'('id', 'com.inkr.sport:id/tvPublish')'完成
+2023-04-18 16:11:32 INFO 查找元素'(('id', 'com.inkr.sport:id/tvPublish'),)'完成
+2023-04-18 16:11:32 INFO 点击元素'('id', 'com.inkr.sport:id/tvPublish')'完成
+2023-04-18 16:11:32 INFO 发布方案成功
+2023-04-18 16:11:32 INFO 查找元素'(('id', 'com.inkr.sport:id/tvPublishSuccess'),)'完成
+2023-04-18 16:11:32 INFO 用户信息的value为：发布成功
+2023-04-18 16:11:32 INFO 查找元素'(('id', 'com.inkr.sport:id/tvPublishSuccess'),)'完成
+2023-04-18 16:11:32 INFO 用户信息的value为：发布成功
+2023-04-18 16:11:33 INFO 查找元素'(('id', 'com.inkr.sport:id/tvConfirm'),)'完成
+2023-04-18 16:11:33 INFO 点击元素'('id', 'com.inkr.sport:id/tvConfirm')'完成
+2023-04-18 16:11:33 INFO 查找元素'(('id', 'com.inkr.sport:id/navTitle'),)'完成
+2023-04-18 16:11:33 INFO 点击元素'('id', 'com.inkr.sport:id/navTitle')'完成
+2023-04-18 16:11:34 INFO 查找元素'(('id', 'com.inkr.sport:id/navTitle'),)'完成
+2023-04-18 16:11:35 INFO 点击元素'('id', 'com.inkr.sport:id/navTitle')'完成
+2023-04-18 16:11:35 INFO 查找元素'(('id', 'com.inkr.sport:id/ivSetting'),)'完成
+2023-04-18 16:11:36 INFO 点击元素'('id', 'com.inkr.sport:id/ivSetting')'完成
+2023-04-18 16:11:36 INFO 查找元素'(('id', 'com.inkr.sport:id/btExitLogin'),)'完成
+2023-04-18 16:11:37 INFO 点击元素'('id', 'com.inkr.sport:id/btExitLogin')'完成
+2023-04-18 16:11:37 INFO 查找元素'(('id', 'com.inkr.sport:id/btConfirm'),)'完成
+2023-04-18 16:11:38 INFO 点击元素'('id', 'com.inkr.sport:id/btConfirm')'完成
+2023-04-18 16:11:38 INFO 退出登录成功
+2023-04-18 16:11:38 INFO 查找元素'(('id', 'com.inkr.sport:id/tvUserName'),)'完成
+2023-04-18 16:11:48 INFO 点击元素'('id', 'com.inkr.sport:id/tvUserName')'完成
+2023-04-18 16:12:19 INFO 查找元素'(('id', 'com.inkr.sport:id/tvAccountLogin'),)'完成
+2023-04-18 16:12:49 INFO 点击元素'('id', 'com.inkr.sport:id/tvAccountLogin')'完成
+2023-04-18 16:14:39 INFO 查找元素'(('id', 'com.inkr.sport:id/etPd'),)'完成
+2023-04-18 16:16:10 INFO 查找元素'(('id', 'com.inkr.sport:id/ivPolicyCheckBox'),)'完成
+2023-04-18 16:16:40 INFO 点击元素'('id', 'com.inkr.sport:id/ivPolicyCheckBox')'完成
+2023-04-18 16:17:10 INFO 查找元素'(('id', 'com.inkr.sport:id/btLogin'),)'完成
+2023-04-18 16:17:31 INFO 点击元素'('id', 'com.inkr.sport:id/btLogin')'完成
+2023-04-18 16:17:31 INFO 登录成功账号:13000000000 密码：abc123456
+2023-04-18 16:17:33 INFO 查找元素'(('id', 'com.inkr.sport:id/ivTbLottery'),)'完成
+2023-04-18 16:17:33 INFO 点击元素'('id', 'com.inkr.sport:id/ivTbLottery')'完成
+2023-04-18 16:17:34 INFO **************用例执行结束**************
+2023-04-18 16:37:16 INFO *********开始启动APP*********
+2023-04-18 16:37:16 INFO 手机参数：{'platformName': 'android', 'platformVersion': '12', 'deviceName': '127.0.0.1:7555', 'automationName': 'UiAutomator2', 'appPackage': 'com.inkr.sport', 'appActivity': 'com.inkr.sport.activities.SplashActivity'}
+2023-04-18 16:37:22 INFO *********启动成功*********
+2023-04-18 16:37:22 INFO **************用例开始执行**************
+2023-04-18 16:37:23 INFO 查找元素'(('id', 'com.inkr.sport:id/tvPopAgreementAgree'),)'完成
+2023-04-18 16:37:24 INFO 点击元素'('id', 'com.inkr.sport:id/tvPopAgreementAgree')'完成
+2023-04-18 16:37:24 INFO 开始左滑
+2023-04-18 16:37:25 INFO 左滑1次
+2023-04-18 16:37:27 INFO 左滑2次
+2023-04-18 16:37:27 INFO 左滑完成
+2023-04-18 16:37:27 INFO 查找元素'(('id', 'com.inkr.sport:id/ivEnterApp'),)'完成
+2023-04-18 16:37:28 INFO 点击元素'('id', 'com.inkr.sport:id/ivEnterApp')'完成
+2023-04-18 16:37:31 INFO 查找元素'(('id', 'com.inkr.sport:id/ivTbMine'),)'完成
+2023-04-18 16:37:32 INFO 点击元素'('id', 'com.inkr.sport:id/ivTbMine')'完成
+2023-04-18 16:37:32 INFO 查找元素'(('id', 'com.inkr.sport:id/tvUserName'),)'完成
+2023-04-18 16:37:42 INFO 点击元素'('id', 'com.inkr.sport:id/tvUserName')'完成
+2023-04-18 16:38:12 INFO 查找元素'(('id', 'com.inkr.sport:id/tvAccountLogin'),)'完成
+2023-04-18 16:38:42 INFO 点击元素'('id', 'com.inkr.sport:id/tvAccountLogin')'完成
+2023-04-18 16:40:33 INFO 查找元素'(('id', 'com.inkr.sport:id/etPd'),)'完成
+2023-04-18 16:42:03 INFO 查找元素'(('id', 'com.inkr.sport:id/ivPolicyCheckBox'),)'完成
+2023-04-18 16:42:34 INFO 点击元素'('id', 'com.inkr.sport:id/ivPolicyCheckBox')'完成
+2023-04-18 16:43:04 INFO 查找元素'(('id', 'com.inkr.sport:id/btLogin'),)'完成
+2023-04-18 16:43:24 INFO 点击元素'('id', 'com.inkr.sport:id/btLogin')'完成
+2023-04-18 16:43:24 INFO 登录成功账号:13000000014 密码：abc123456
+2023-04-18 16:43:26 INFO 查找元素'(('id', 'com.inkr.sport:id/tvUserName'),)'完成
+2023-04-18 16:43:27 INFO 用户信息的value为：体育用户2
+2023-04-18 16:43:27 INFO 查找元素'(('id', 'com.inkr.sport:id/tvExpert'),)'完成
+2023-04-18 16:43:28 INFO 点击元素'('id', 'com.inkr.sport:id/tvExpert')'完成
+2023-04-18 16:43:28 INFO 查找元素'(('id', 'com.inkr.sport:id/tvMenuName'),)'完成
+2023-04-18 16:43:28 INFO 点击元素'('id', 'com.inkr.sport:id/tvMenuName')'完成
+2023-04-18 16:43:30 INFO 查找元素'(('id', 'com.inkr.sport:id/tvNotMind'),)'完成
+2023-04-18 16:43:30 INFO 点击元素'('id', 'com.inkr.sport:id/tvNotMind')'完成
+2023-04-18 16:43:31 INFO 查找元素'(('id', 'com.inkr.sport:id/tvConfirm'),)'完成
+2023-04-18 16:43:31 INFO 点击元素'('id', 'com.inkr.sport:id/tvConfirm')'完成
+2023-04-18 16:43:31 INFO 查找元素'(('id', 'com.inkr.sport:id/tvIKnow'),)'完成
+2023-04-18 16:43:31 INFO 点击元素'('id', 'com.inkr.sport:id/tvIKnow')'完成
+2023-04-18 16:43:32 INFO 查找元素'(('id', 'com.inkr.sport:id/rlAddMatch'),)'完成
+2023-04-18 16:43:32 INFO 点击元素'('id', 'com.inkr.sport:id/rlAddMatch')'完成
+2023-04-18 16:43:35 INFO 查找元素'(('xpath', '//*[@resource-id="com.inkr.sport:id/recyclerView"]/android.view.ViewGroup[5]'),)'完成
+2023-04-18 16:43:36 INFO 点击元素'('xpath', '//*[@resource-id="com.inkr.sport:id/recyclerView"]/android.view.ViewGroup[5]')'完成
+2023-04-18 16:43:36 INFO 查找元素'(('id', 'com.inkr.sport:id/tvDraft'),)'完成
+2023-04-18 16:43:36 INFO 查找元素'(('xpath', "//*[@text='胜负过关']"),)'完成
+2023-04-18 16:43:36 INFO 点击元素'('xpath', "//*[@text='胜负过关']")'完成
+2023-04-18 16:43:36 INFO 选择的玩法类型：北单，选择了第4场比赛，选择的玩法方式：胜负过关
+2023-04-18 16:43:37 ERROR 获取第三个元素失败，原因list index out of range，默认选择第一个推荐结果
+2023-04-18 16:43:37 INFO 不能选择主推次推1
+2023-04-18 16:43:37 INFO 查找元素'(('id', 'com.inkr.sport:id/firstItem'),)'完成
+2023-04-18 16:43:37 INFO 点击元素'('id', 'com.inkr.sport:id/firstItem')'完成
+2023-04-18 16:43:37 INFO 不选择其他玩法
+2023-04-18 16:43:37 INFO 查找元素'(('xpath', '//*[@resource-id ="com.inkr.sport:id/glPrice"]/android.view.ViewGroup[2]'),)'完成
+2023-04-18 16:43:37 INFO 点击元素'('xpath', '//*[@resource-id ="com.inkr.sport:id/glPrice"]/android.view.ViewGroup[2]')'完成
+2023-04-18 16:43:37 INFO 开始上滑
+2023-04-18 16:43:38 INFO 上滑完成
+2023-04-18 16:43:38 INFO 不选择促销信息
+2023-04-18 16:43:38 INFO 查找元素'现金红包'完成
+2023-04-18 16:43:39 INFO 点击元素'现金红包'完成
+2023-04-18 16:43:39 INFO 查找元素'(('id', 'com.inkr.sport:id/tvSelectGoods'),)'完成
+2023-04-18 16:43:41 INFO 点击元素'('id', 'com.inkr.sport:id/tvSelectGoods')'完成
+2023-04-18 16:43:41 INFO 点击元素'('id', 'com.inkr.sport:id/ivAward')'完成
+2023-04-18 16:43:41 INFO 查找元素'(('id', 'com.inkr.sport:id/tvAllNum'),)'完成
+2023-04-18 16:43:41 INFO 点击元素'('id', 'com.inkr.sport:id/tvAllNum')'完成
+2023-04-18 16:43:42 INFO 查找元素'(('id', 'com.inkr.sport:id/tvTitle'),)'完成
+2023-04-18 16:43:43 INFO 点击元素'('id', 'com.inkr.sport:id/tvTitle')'完成
+2023-04-18 16:43:43 INFO 查找元素'(('id', 'com.inkr.sport:id/etContent'),)'完成
+2023-04-18 16:43:44 INFO 查找元素'(('id', 'com.inkr.sport:id/tvConfirm'),)'完成
+2023-04-18 16:43:44 INFO 点击元素'('id', 'com.inkr.sport:id/tvConfirm')'完成
+2023-04-18 16:43:44 INFO 查找元素'(('id', 'com.inkr.sport:id/tvRecommend'),)'完成
+2023-04-18 16:43:45 INFO 点击元素'('id', 'com.inkr.sport:id/tvRecommend')'完成
+2023-04-18 16:43:45 INFO 查找元素'(('id', 'com.inkr.sport:id/etContent'),)'完成
+2023-04-18 16:43:47 INFO 查找元素'(('id', 'com.inkr.sport:id/tvConfirm'),)'完成
+2023-04-18 16:43:47 INFO 点击元素'('id', 'com.inkr.sport:id/tvConfirm')'完成
+2023-04-18 16:43:47 INFO 查找元素'(('id', 'com.inkr.sport:id/tvContent'),)'完成
+2023-04-18 16:43:48 INFO 点击元素'('id', 'com.inkr.sport:id/tvContent')'完成
+2023-04-18 16:43:48 INFO 查找元素'(('id', 'com.inkr.sport:id/etContent'),)'完成
+2023-04-18 16:43:49 INFO 查找元素'(('id', 'com.inkr.sport:id/tvConfirm'),)'完成
+2023-04-18 16:43:49 INFO 点击元素'('id', 'com.inkr.sport:id/tvConfirm')'完成
+2023-04-18 16:43:50 INFO 查找元素'(('id', 'com.inkr.sport:id/tvPublish'),)'完成
+2023-04-18 16:43:51 INFO 点击元素'('id', 'com.inkr.sport:id/tvPublish')'完成
+2023-04-18 16:43:51 INFO 查找元素'(('id', 'com.inkr.sport:id/tvPublish'),)'完成
+2023-04-18 16:43:52 INFO 点击元素'('id', 'com.inkr.sport:id/tvPublish')'完成
+2023-04-18 16:43:52 INFO 发布方案成功
+2023-04-18 16:43:52 INFO 查找元素'(('id', 'com.inkr.sport:id/tvPublishSuccess'),)'完成
+2023-04-18 16:43:52 INFO 用户信息的value为：发布成功
+2023-04-18 16:43:52 INFO 查找元素'(('id', 'com.inkr.sport:id/tvPublishSuccess'),)'完成
+2023-04-18 16:43:52 INFO 用户信息的value为：发布成功
+2023-04-18 16:43:52 INFO 查找元素'(('id', 'com.inkr.sport:id/tvConfirm'),)'完成
+2023-04-18 16:43:52 INFO 点击元素'('id', 'com.inkr.sport:id/tvConfirm')'完成
+2023-04-18 16:43:53 INFO 查找元素'(('id', 'com.inkr.sport:id/navTitle'),)'完成
+2023-04-18 16:43:54 INFO 点击元素'('id', 'com.inkr.sport:id/navTitle')'完成
+2023-04-18 16:43:54 INFO 查找元素'(('id', 'com.inkr.sport:id/navTitle'),)'完成
+2023-04-18 16:43:55 INFO 点击元素'('id', 'com.inkr.sport:id/navTitle')'完成
+2023-04-18 16:43:55 INFO 查找元素'(('id', 'com.inkr.sport:id/ivSetting'),)'完成
+2023-04-18 16:43:55 INFO 点击元素'('id', 'com.inkr.sport:id/ivSetting')'完成
+2023-04-18 16:43:55 INFO 查找元素'(('id', 'com.inkr.sport:id/btExitLogin'),)'完成
+2023-04-18 16:43:56 INFO 点击元素'('id', 'com.inkr.sport:id/btExitLogin')'完成
+2023-04-18 16:43:56 INFO 查找元素'(('id', 'com.inkr.sport:id/btConfirm'),)'完成
+2023-04-18 16:43:56 INFO 点击元素'('id', 'com.inkr.sport:id/btConfirm')'完成
+2023-04-18 16:43:56 INFO 退出登录成功
+2023-04-18 16:43:57 INFO 查找元素'(('id', 'com.inkr.sport:id/tvUserName'),)'完成
+2023-04-18 16:43:57 INFO 点击元素'('id', 'com.inkr.sport:id/tvUserName')'完成
+2023-04-18 16:44:27 INFO 查找元素'(('id', 'com.inkr.sport:id/tvAccountLogin'),)'完成
+2023-04-18 16:44:58 INFO 点击元素'('id', 'com.inkr.sport:id/tvAccountLogin')'完成
+2023-04-18 16:46:48 INFO 查找元素'(('id', 'com.inkr.sport:id/etPd'),)'完成
+2023-04-18 16:48:19 INFO 查找元素'(('id', 'com.inkr.sport:id/ivPolicyCheckBox'),)'完成
+2023-04-18 16:48:49 INFO 点击元素'('id', 'com.inkr.sport:id/ivPolicyCheckBox')'完成
+2023-04-18 16:49:19 INFO 查找元素'(('id', 'com.inkr.sport:id/btLogin'),)'完成
+2023-04-18 16:49:40 INFO 点击元素'('id', 'com.inkr.sport:id/btLogin')'完成
+2023-04-18 16:49:40 INFO 登录成功账号:13000000000 密码：abc123456
+2023-04-18 16:49:43 INFO 查找元素'(('id', 'com.inkr.sport:id/ivTbLottery'),)'完成
+2023-04-18 16:49:43 INFO 点击元素'('id', 'com.inkr.sport:id/ivTbLottery')'完成
+2023-04-18 16:49:43 INFO **************用例执行结束**************
+2023-04-18 16:50:23 INFO *********开始启动APP*********
+2023-04-18 16:50:23 INFO 手机参数：{'platformName': 'android', 'platformVersion': '12', 'deviceName': '127.0.0.1:7555', 'automationName': 'UiAutomator2', 'appPackage': 'com.inkr.sport', 'appActivity': 'com.inkr.sport.activities.SplashActivity'}
+2023-04-18 16:50:31 INFO *********启动成功*********
+2023-04-18 16:50:31 INFO **************用例开始执行**************
+2023-04-18 16:50:31 INFO 查找元素'(('id', 'com.inkr.sport:id/tvPopAgreementAgree'),)'完成
+2023-04-18 16:50:31 INFO 点击元素'('id', 'com.inkr.sport:id/tvPopAgreementAgree')'完成
+2023-04-18 16:50:31 INFO 开始左滑
+2023-04-18 16:50:33 INFO 左滑1次
+2023-04-18 16:50:34 INFO 左滑2次
+2023-04-18 16:50:34 INFO 左滑完成
+2023-04-18 16:50:35 INFO 查找元素'(('id', 'com.inkr.sport:id/ivEnterApp'),)'完成
+2023-04-18 16:50:35 INFO 点击元素'('id', 'com.inkr.sport:id/ivEnterApp')'完成
+2023-04-18 16:50:38 INFO 查找元素'(('id', 'com.inkr.sport:id/ivTbMine'),)'完成
+2023-04-18 16:50:39 INFO 点击元素'('id', 'com.inkr.sport:id/ivTbMine')'完成
+2023-04-18 16:50:39 INFO 查找元素'(('id', 'com.inkr.sport:id/tvUserName'),)'完成
+2023-04-18 16:50:44 INFO 点击元素'('id', 'com.inkr.sport:id/tvUserName')'完成
+2023-04-18 16:51:04 ERROR 获取元素'(('id', 'com.inkr.sport:id/tvAccountLogin'),)'失败，原因：Message: 
+Stacktrace:
+NoSuchElementError: An element could not be located on the page using the given search parameters.
+    at AndroidUiautomator2Driver.findElOrEls (E:\Appium-Server-GUI-windows-1.22.3-4\resources\app\node_modules\appium\node_modules\appium-android-driver\lib\commands\find.js:75:11)
+    at runMicrotasks (<anonymous>)
+    at processTicksAndRejections (internal/process/task_queues.js:97:5)
+    at AndroidUiautomator2Driver.findElOrElsWithProcessing (E:\Appium-Server-GUI-windows-1.22.3-4\resources\app\node_modules\appium\node_modules\appium-base-driver\lib\basedriver\commands\find.js:33:12)
+    at AndroidUiautomator2Driver.findElement (E:\Appium-Server-GUI-windows-1.22.3-4\resources\app\node_modules\appium\node_modules\appium-base-driver\lib\basedriver\commands\find.js:53:10)
+2023-04-18 16:51:25 ERROR 获取元素'(('id', 'com.inkr.sport:id/tvExpert'),)'失败，原因：Message: 
+Stacktrace:
+NoSuchElementError: An element could not be located on the page using the given search parameters.
+    at AndroidUiautomator2Driver.findElOrEls (E:\Appium-Server-GUI-windows-1.22.3-4\resources\app\node_modules\appium\node_modules\appium-android-driver\lib\commands\find.js:75:11)
+    at runMicrotasks (<anonymous>)
+    at processTicksAndRejections (internal/process/task_queues.js:97:5)
+    at AndroidUiautomator2Driver.findElOrElsWithProcessing (E:\Appium-Server-GUI-windows-1.22.3-4\resources\app\node_modules\appium\node_modules\appium-base-driver\lib\basedriver\commands\find.js:33:12)
+    at AndroidUiautomator2Driver.findElement (E:\Appium-Server-GUI-windows-1.22.3-4\resources\app\node_modules\appium\node_modules\appium-base-driver\lib\basedriver\commands\find.js:53:10)
+2023-04-18 16:51:30 INFO **************用例执行结束**************
+2023-04-18 16:51:33 INFO *********开始启动APP*********
+2023-04-18 16:51:33 INFO 手机参数：{'platformName': 'android', 'platformVersion': '12', 'deviceName': '127.0.0.1:7555', 'automationName': 'UiAutomator2', 'appPackage': 'com.inkr.sport', 'appActivity': 'com.inkr.sport.activities.SplashActivity'}
+2023-04-18 16:51:40 INFO *********启动成功*********
+2023-04-18 16:51:40 INFO **************用例开始执行**************
+2023-04-18 16:51:41 INFO 查找元素'(('id', 'com.inkr.sport:id/tvPopAgreementAgree'),)'完成
+2023-04-18 16:51:41 INFO 点击元素'('id', 'com.inkr.sport:id/tvPopAgreementAgree')'完成
+2023-04-18 16:51:41 INFO 开始左滑
+2023-04-18 16:51:42 INFO 左滑1次
+2023-04-18 16:51:44 INFO 左滑2次
+2023-04-18 16:51:44 INFO 左滑完成
+2023-04-18 16:51:45 INFO 查找元素'(('id', 'com.inkr.sport:id/ivEnterApp'),)'完成
+2023-04-18 16:51:45 INFO 点击元素'('id', 'com.inkr.sport:id/ivEnterApp')'完成
+2023-04-18 16:51:48 INFO 查找元素'(('id', 'com.inkr.sport:id/ivTbMine'),)'完成
+2023-04-18 16:51:48 INFO 点击元素'('id', 'com.inkr.sport:id/ivTbMine')'完成
+2023-04-18 16:51:48 INFO 查找元素'(('id', 'com.inkr.sport:id/tvUserName'),)'完成
+2023-04-18 16:51:58 INFO 点击元素'('id', 'com.inkr.sport:id/tvUserName')'完成
+2023-04-18 16:52:28 INFO 查找元素'(('id', 'com.inkr.sport:id/tvAccountLogin'),)'完成
+2023-04-18 16:52:59 INFO 点击元素'('id', 'com.inkr.sport:id/tvAccountLogin')'完成
+2023-04-18 16:54:49 INFO 查找元素'(('id', 'com.inkr.sport:id/etPd'),)'完成
+2023-04-18 16:56:20 INFO 查找元素'(('id', 'com.inkr.sport:id/ivPolicyCheckBox'),)'完成
+2023-04-18 16:56:50 INFO 点击元素'('id', 'com.inkr.sport:id/ivPolicyCheckBox')'完成
+2023-04-18 16:57:20 INFO 查找元素'(('id', 'com.inkr.sport:id/btLogin'),)'完成
+2023-04-18 16:57:41 INFO 点击元素'('id', 'com.inkr.sport:id/btLogin')'完成
+2023-04-18 16:57:41 INFO 登录成功账号:13000000014 密码：abc123456
+2023-04-18 16:57:44 INFO 查找元素'(('id', 'com.inkr.sport:id/tvUserName'),)'完成
+2023-04-18 16:57:44 INFO 用户信息的value为：体育用户2
+2023-04-18 16:57:44 INFO 查找元素'(('id', 'com.inkr.sport:id/tvExpert'),)'完成
+2023-04-18 16:57:44 INFO 点击元素'('id', 'com.inkr.sport:id/tvExpert')'完成
+2023-04-18 16:57:45 INFO 查找元素'(('id', 'com.inkr.sport:id/tvMenuName'),)'完成
+2023-04-18 16:57:45 INFO 点击元素'('id', 'com.inkr.sport:id/tvMenuName')'完成
+2023-04-18 16:57:46 INFO 查找元素'(('id', 'com.inkr.sport:id/tvNotMind'),)'完成
+2023-04-18 16:57:47 INFO 点击元素'('id', 'com.inkr.sport:id/tvNotMind')'完成
+2023-04-18 16:57:47 INFO 查找元素'(('id', 'com.inkr.sport:id/tvConfirm'),)'完成
+2023-04-18 16:57:47 INFO 点击元素'('id', 'com.inkr.sport:id/tvConfirm')'完成
+2023-04-18 16:57:48 INFO 查找元素'(('id', 'com.inkr.sport:id/tvIKnow'),)'完成
+2023-04-18 16:57:48 INFO 点击元素'('id', 'com.inkr.sport:id/tvIKnow')'完成
+2023-04-18 16:57:49 INFO 查找元素'(('id', 'com.inkr.sport:id/rlAddMatch'),)'完成
+2023-04-18 16:57:51 INFO 点击元素'('id', 'com.inkr.sport:id/rlAddMatch')'完成
+2023-04-18 16:57:51 INFO 查找元素'(('xpath', '//*[@resource-id="com.inkr.sport:id/recyclerView"]/android.view.ViewGroup[3]'),)'完成
+2023-04-18 16:57:52 INFO 点击元素'('xpath', '//*[@resource-id="com.inkr.sport:id/recyclerView"]/android.view.ViewGroup[3]')'完成
+2023-04-18 16:57:52 INFO 查找元素'(('id', 'com.inkr.sport:id/tvDraft'),)'完成
+2023-04-18 16:57:52 INFO 查找元素'(('xpath', "//*[@text='胜负过关']"),)'完成
+2023-04-18 16:57:52 INFO 点击元素'('xpath', "//*[@text='胜负过关']")'完成
+2023-04-18 16:57:52 INFO 选择的玩法类型：北单，选择了第2场比赛，选择的玩法方式：胜负过关
+2023-04-18 16:57:53 ERROR 获取第三个元素失败，原因list index out of range，默认选择第一个推荐结果
+2023-04-18 16:57:53 INFO 不能选择主推次推1
+2023-04-18 16:57:53 INFO 查找元素'(('id', 'com.inkr.sport:id/firstItem'),)'完成
+2023-04-18 16:57:53 INFO 点击元素'('id', 'com.inkr.sport:id/firstItem')'完成
+2023-04-18 16:57:53 INFO 不选择其他玩法
+2023-04-18 16:57:53 INFO 查找元素'(('xpath', '//*[@resource-id ="com.inkr.sport:id/glPrice"]/android.view.ViewGroup[2]'),)'完成
+2023-04-18 16:57:53 INFO 点击元素'('xpath', '//*[@resource-id ="com.inkr.sport:id/glPrice"]/android.view.ViewGroup[2]')'完成
+2023-04-18 16:57:53 INFO 开始上滑
+2023-04-18 16:57:54 INFO 上滑完成
+2023-04-18 16:57:54 INFO 不选择促销信息
+2023-04-18 16:57:54 INFO 查找元素'现金红包'完成
+2023-04-18 16:57:55 INFO 点击元素'现金红包'完成
+2023-04-18 16:57:55 INFO 查找元素'(('id', 'com.inkr.sport:id/tvSelectGoods'),)'完成
+2023-04-18 16:57:56 INFO 点击元素'('id', 'com.inkr.sport:id/tvSelectGoods')'完成
+2023-04-18 16:57:56 INFO 点击元素'('id', 'com.inkr.sport:id/ivAward')'完成
+2023-04-18 16:57:57 INFO 查找元素'(('id', 'com.inkr.sport:id/tvAllNum'),)'完成
+2023-04-18 16:57:57 INFO 点击元素'('id', 'com.inkr.sport:id/tvAllNum')'完成
+2023-04-18 16:57:58 INFO 查找元素'(('id', 'com.inkr.sport:id/tvTitle'),)'完成
+2023-04-18 16:57:59 INFO 点击元素'('id', 'com.inkr.sport:id/tvTitle')'完成
+2023-04-18 16:57:59 INFO 查找元素'(('id', 'com.inkr.sport:id/etContent'),)'完成
+2023-04-18 16:58:01 INFO 查找元素'(('id', 'com.inkr.sport:id/tvConfirm'),)'完成
+2023-04-18 16:58:01 INFO 点击元素'('id', 'com.inkr.sport:id/tvConfirm')'完成
+2023-04-18 16:58:01 INFO 查找元素'(('id', 'com.inkr.sport:id/tvRecommend'),)'完成
+2023-04-18 16:58:02 INFO 点击元素'('id', 'com.inkr.sport:id/tvRecommend')'完成
+2023-04-18 16:58:02 INFO 查找元素'(('id', 'com.inkr.sport:id/etContent'),)'完成
+2023-04-18 16:58:04 INFO 查找元素'(('id', 'com.inkr.sport:id/tvConfirm'),)'完成
+2023-04-18 16:58:04 INFO 点击元素'('id', 'com.inkr.sport:id/tvConfirm')'完成
+2023-04-18 16:58:04 INFO 查找元素'(('id', 'com.inkr.sport:id/tvContent'),)'完成
+2023-04-18 16:58:05 INFO 点击元素'('id', 'com.inkr.sport:id/tvContent')'完成
+2023-04-18 16:58:05 INFO 查找元素'(('id', 'com.inkr.sport:id/etContent'),)'完成
+2023-04-18 16:58:07 INFO 查找元素'(('id', 'com.inkr.sport:id/tvConfirm'),)'完成
+2023-04-18 16:58:07 INFO 点击元素'('id', 'com.inkr.sport:id/tvConfirm')'完成
+2023-04-18 16:58:07 INFO 查找元素'(('id', 'com.inkr.sport:id/tvPublish'),)'完成
+2023-04-18 16:58:08 INFO 点击元素'('id', 'com.inkr.sport:id/tvPublish')'完成
+2023-04-18 16:58:08 INFO 查找元素'(('id', 'com.inkr.sport:id/tvPublish'),)'完成
+2023-04-18 16:58:08 INFO 点击元素'('id', 'com.inkr.sport:id/tvPublish')'完成
+2023-04-18 16:58:08 INFO 发布方案成功
+2023-04-18 16:58:09 INFO 查找元素'(('id', 'com.inkr.sport:id/tvPublishSuccess'),)'完成
+2023-04-18 16:58:09 INFO 用户信息的value为：发布成功
+2023-04-18 16:58:09 INFO 查找元素'(('id', 'com.inkr.sport:id/tvPublishSuccess'),)'完成
+2023-04-18 16:58:09 INFO 用户信息的value为：发布成功
+2023-04-18 16:58:09 INFO 查找元素'(('id', 'com.inkr.sport:id/tvConfirm'),)'完成
+2023-04-18 16:58:10 INFO 点击元素'('id', 'com.inkr.sport:id/tvConfirm')'完成
+2023-04-18 16:58:10 INFO 查找元素'(('id', 'com.inkr.sport:id/navTitle'),)'完成
+2023-04-18 16:58:10 INFO 点击元素'('id', 'com.inkr.sport:id/navTitle')'完成
+2023-04-18 16:58:11 INFO 查找元素'(('id', 'com.inkr.sport:id/navTitle'),)'完成
+2023-04-18 16:58:12 INFO 点击元素'('id', 'com.inkr.sport:id/navTitle')'完成
+2023-04-18 16:58:12 INFO 查找元素'(('id', 'com.inkr.sport:id/ivSetting'),)'完成
+2023-04-18 16:58:12 INFO 点击元素'('id', 'com.inkr.sport:id/ivSetting')'完成
+2023-04-18 16:58:13 INFO 查找元素'(('id', 'com.inkr.sport:id/btExitLogin'),)'完成
+2023-04-18 16:58:14 INFO 点击元素'('id', 'com.inkr.sport:id/btExitLogin')'完成
+2023-04-18 16:58:14 INFO 查找元素'(('id', 'com.inkr.sport:id/btConfirm'),)'完成
+2023-04-18 16:58:15 INFO 点击元素'('id', 'com.inkr.sport:id/btConfirm')'完成
+2023-04-18 16:58:15 INFO 退出登录成功
+2023-04-18 16:58:15 INFO 查找元素'(('id', 'com.inkr.sport:id/tvUserName'),)'完成
+2023-04-18 16:58:25 INFO 点击元素'('id', 'com.inkr.sport:id/tvUserName')'完成
+2023-04-18 16:58:55 INFO 查找元素'(('id', 'com.inkr.sport:id/tvAccountLogin'),)'完成
+2023-04-18 16:59:25 INFO 点击元素'('id', 'com.inkr.sport:id/tvAccountLogin')'完成
+2023-04-18 17:01:16 INFO 查找元素'(('id', 'com.inkr.sport:id/etPd'),)'完成
+2023-04-18 17:02:47 INFO 查找元素'(('id', 'com.inkr.sport:id/ivPolicyCheckBox'),)'完成
+2023-04-18 17:03:17 INFO 点击元素'('id', 'com.inkr.sport:id/ivPolicyCheckBox')'完成
+2023-04-18 17:03:47 INFO 查找元素'(('id', 'com.inkr.sport:id/btLogin'),)'完成
+2023-04-18 17:04:08 INFO 点击元素'('id', 'com.inkr.sport:id/btLogin')'完成
+2023-04-18 17:04:08 INFO 登录成功账号:13000000000 密码：abc123456
+2023-04-18 17:04:10 INFO 查找元素'(('id', 'com.inkr.sport:id/ivTbLottery'),)'完成
+2023-04-18 17:04:10 INFO 点击元素'('id', 'com.inkr.sport:id/ivTbLottery')'完成
+2023-04-18 17:04:31 ERROR 获取元素'(('id', 'com.inkr.sport:id/tvConfirm'),)'失败，原因：Message: 
+Stacktrace:
+NoSuchElementError: An element could not be located on the page using the given search parameters.
+    at AndroidUiautomator2Driver.findElOrEls (E:\Appium-Server-GUI-windows-1.22.3-4\resources\app\node_modules\appium\node_modules\appium-android-driver\lib\commands\find.js:75:11)
+    at runMicrotasks (<anonymous>)
+    at processTicksAndRejections (internal/process/task_queues.js:97:5)
+    at AndroidUiautomator2Driver.findElOrElsWithProcessing (E:\Appium-Server-GUI-windows-1.22.3-4\resources\app\node_modules\appium\node_modules\appium-base-driver\lib\basedriver\commands\find.js:33:12)
+    at AndroidUiautomator2Driver.findElement (E:\Appium-Server-GUI-windows-1.22.3-4\resources\app\node_modules\appium\node_modules\appium-base-driver\lib\basedriver\commands\find.js:53:10)
+2023-04-18 17:04:31 INFO **************用例执行结束**************
+2023-04-18 17:05:53 INFO *********开始启动APP*********
+2023-04-18 17:05:53 INFO 手机参数：{'platformName': 'android', 'platformVersion': '12', 'deviceName': '127.0.0.1:7555', 'automationName': 'UiAutomator2', 'appPackage': 'com.inkr.sport', 'appActivity': 'com.inkr.sport.activities.SplashActivity'}
+2023-04-18 17:06:01 INFO *********启动成功*********
+2023-04-18 17:06:01 INFO **************用例开始执行**************
+2023-04-18 17:06:01 INFO 查找元素'(('id', 'com.inkr.sport:id/tvPopAgreementAgree'),)'完成
+2023-04-18 17:06:01 INFO 点击元素'('id', 'com.inkr.sport:id/tvPopAgreementAgree')'完成
+2023-04-18 17:06:01 INFO 开始左滑
+2023-04-18 17:06:03 INFO 左滑1次
+2023-04-18 17:06:04 INFO 左滑2次
+2023-04-18 17:06:04 INFO 左滑完成
+2023-04-18 17:06:05 INFO 查找元素'(('id', 'com.inkr.sport:id/ivEnterApp'),)'完成
+2023-04-18 17:06:06 INFO 点击元素'('id', 'com.inkr.sport:id/ivEnterApp')'完成
+2023-04-18 17:06:07 INFO 查找元素'(('id', 'com.inkr.sport:id/ivTbMine'),)'完成
+2023-04-18 17:06:08 INFO 点击元素'('id', 'com.inkr.sport:id/ivTbMine')'完成
+2023-04-18 17:06:08 INFO 查找元素'(('id', 'com.inkr.sport:id/tvUserName'),)'完成
+2023-04-18 17:06:08 INFO 点击元素'('id', 'com.inkr.sport:id/tvUserName')'完成
+2023-04-18 17:06:38 INFO 查找元素'(('id', 'com.inkr.sport:id/tvAccountLogin'),)'完成
+2023-04-18 17:07:09 INFO 点击元素'('id', 'com.inkr.sport:id/tvAccountLogin')'完成
+2023-04-18 17:08:59 INFO 查找元素'(('id', 'com.inkr.sport:id/etPd'),)'完成
+2023-04-18 17:10:30 INFO 查找元素'(('id', 'com.inkr.sport:id/ivPolicyCheckBox'),)'完成
+2023-04-18 17:11:00 INFO 点击元素'('id', 'com.inkr.sport:id/ivPolicyCheckBox')'完成
+2023-04-18 17:11:30 INFO 查找元素'(('id', 'com.inkr.sport:id/btLogin'),)'完成
+2023-04-18 17:11:51 INFO 点击元素'('id', 'com.inkr.sport:id/btLogin')'完成
+2023-04-18 17:11:51 INFO 登录成功账号:13000000014 密码：abc123456
+2023-04-18 17:11:53 INFO 查找元素'(('id', 'com.inkr.sport:id/tvUserName'),)'完成
+2023-04-18 17:11:53 INFO 用户信息的value为：体育用户2
+2023-04-18 17:11:53 INFO 查找元素'(('id', 'com.inkr.sport:id/tvExpert'),)'完成
+2023-04-18 17:11:53 INFO 点击元素'('id', 'com.inkr.sport:id/tvExpert')'完成
+2023-04-18 17:11:54 INFO 查找元素'(('id', 'com.inkr.sport:id/tvMenuName'),)'完成
+2023-04-18 17:11:54 INFO 点击元素'('id', 'com.inkr.sport:id/tvMenuName')'完成
+2023-04-18 17:11:56 INFO 查找元素'(('id', 'com.inkr.sport:id/tvNotMind'),)'完成
+2023-04-18 17:11:56 INFO 点击元素'('id', 'com.inkr.sport:id/tvNotMind')'完成
+2023-04-18 17:11:56 INFO 查找元素'(('id', 'com.inkr.sport:id/tvConfirm'),)'完成
+2023-04-18 17:11:56 INFO 点击元素'('id', 'com.inkr.sport:id/tvConfirm')'完成
+2023-04-18 17:11:57 INFO 查找元素'(('id', 'com.inkr.sport:id/tvIKnow'),)'完成
+2023-04-18 17:11:57 INFO 点击元素'('id', 'com.inkr.sport:id/tvIKnow')'完成
+2023-04-18 17:11:58 INFO 查找元素'(('id', 'com.inkr.sport:id/rlAddMatch'),)'完成
+2023-04-18 17:12:01 INFO 点击元素'('id', 'com.inkr.sport:id/rlAddMatch')'完成
+2023-04-18 17:12:01 INFO 查找元素'(('xpath', '//*[@resource-id="com.inkr.sport:id/recyclerView"]/android.view.ViewGroup[7]'),)'完成
+2023-04-18 17:12:01 INFO 点击元素'('xpath', '//*[@resource-id="com.inkr.sport:id/recyclerView"]/android.view.ViewGroup[7]')'完成
+2023-04-18 17:12:02 INFO 查找元素'(('id', 'com.inkr.sport:id/tvDraft'),)'完成
+2023-04-18 17:12:02 INFO 查找元素'(('xpath', "//*[@text='胜负过关']"),)'完成
+2023-04-18 17:12:03 INFO 点击元素'('xpath', "//*[@text='胜负过关']")'完成
+2023-04-18 17:12:03 INFO 选择的玩法类型：北单，选择了第6场比赛，选择的玩法方式：胜负过关
+2023-04-18 17:12:03 ERROR 获取第三个元素失败，原因list index out of range，默认选择第一个推荐结果
+2023-04-18 17:12:03 INFO 不能选择主推次推1
+2023-04-18 17:12:03 INFO 查找元素'(('id', 'com.inkr.sport:id/firstItem'),)'完成
+2023-04-18 17:12:03 INFO 点击元素'('id', 'com.inkr.sport:id/firstItem')'完成
+2023-04-18 17:12:03 INFO 不选择其他玩法
+2023-04-18 17:12:04 INFO 查找元素'(('xpath', '//*[@resource-id ="com.inkr.sport:id/glPrice"]/android.view.ViewGroup[2]'),)'完成
+2023-04-18 17:12:04 INFO 点击元素'('xpath', '//*[@resource-id ="com.inkr.sport:id/glPrice"]/android.view.ViewGroup[2]')'完成
+2023-04-18 17:12:04 INFO 开始上滑
+2023-04-18 17:12:04 INFO 上滑完成
+2023-04-18 17:12:04 INFO 不选择促销信息
+2023-04-18 17:12:05 INFO 查找元素'现金红包'完成
+2023-04-18 17:12:05 INFO 点击元素'现金红包'完成
+2023-04-18 17:12:05 INFO 查找元素'(('id', 'com.inkr.sport:id/tvSelectGoods'),)'完成
+2023-04-18 17:12:07 INFO 点击元素'('id', 'com.inkr.sport:id/tvSelectGoods')'完成
+2023-04-18 17:12:07 INFO 点击元素'('id', 'com.inkr.sport:id/ivAward')'完成
+2023-04-18 17:12:08 INFO 查找元素'(('id', 'com.inkr.sport:id/tvAllNum'),)'完成
+2023-04-18 17:12:08 INFO 点击元素'('id', 'com.inkr.sport:id/tvAllNum')'完成
+2023-04-18 17:12:08 INFO 查找元素'(('id', 'com.inkr.sport:id/tvTitle'),)'完成
+2023-04-18 17:12:09 INFO 点击元素'('id', 'com.inkr.sport:id/tvTitle')'完成
+2023-04-18 17:12:09 INFO 查找元素'(('id', 'com.inkr.sport:id/etContent'),)'完成
+2023-04-18 17:12:10 INFO 查找元素'(('id', 'com.inkr.sport:id/tvConfirm'),)'完成
+2023-04-18 17:12:10 INFO 点击元素'('id', 'com.inkr.sport:id/tvConfirm')'完成
+2023-04-18 17:12:11 INFO 查找元素'(('id', 'com.inkr.sport:id/tvRecommend'),)'完成
+2023-04-18 17:12:12 INFO 点击元素'('id', 'com.inkr.sport:id/tvRecommend')'完成
+2023-04-18 17:12:12 INFO 查找元素'(('id', 'com.inkr.sport:id/etContent'),)'完成
+2023-04-18 17:12:13 INFO 查找元素'(('id', 'com.inkr.sport:id/tvConfirm'),)'完成
+2023-04-18 17:12:13 INFO 点击元素'('id', 'com.inkr.sport:id/tvConfirm')'完成
+2023-04-18 17:12:14 INFO 查找元素'(('id', 'com.inkr.sport:id/tvContent'),)'完成
+2023-04-18 17:12:15 INFO 点击元素'('id', 'com.inkr.sport:id/tvContent')'完成
+2023-04-18 17:12:15 INFO 查找元素'(('id', 'com.inkr.sport:id/etContent'),)'完成
+2023-04-18 17:12:16 INFO 查找元素'(('id', 'com.inkr.sport:id/tvConfirm'),)'完成
+2023-04-18 17:12:16 INFO 点击元素'('id', 'com.inkr.sport:id/tvConfirm')'完成
+2023-04-18 17:12:17 INFO 查找元素'(('id', 'com.inkr.sport:id/tvPublish'),)'完成
+2023-04-18 17:12:18 INFO 点击元素'('id', 'com.inkr.sport:id/tvPublish')'完成
+2023-04-18 17:12:18 INFO 查找元素'(('id', 'com.inkr.sport:id/tvPublish'),)'完成
+2023-04-18 17:12:19 INFO 点击元素'('id', 'com.inkr.sport:id/tvPublish')'完成
+2023-04-18 17:12:19 INFO 发布方案成功
+2023-04-18 17:12:19 INFO 查找元素'(('id', 'com.inkr.sport:id/tvPublishSuccess'),)'完成
+2023-04-18 17:12:19 INFO 用户信息的value为：发布成功
+2023-04-18 17:12:19 INFO 查找元素'(('id', 'com.inkr.sport:id/tvPublishSuccess'),)'完成
+2023-04-18 17:12:19 INFO 用户信息的value为：发布成功
+2023-04-18 17:12:19 INFO 查找元素'(('id', 'com.inkr.sport:id/tvConfirm'),)'完成
+2023-04-18 17:12:20 INFO 点击元素'('id', 'com.inkr.sport:id/tvConfirm')'完成
+2023-04-18 17:12:20 INFO 查找元素'(('id', 'com.inkr.sport:id/navTitle'),)'完成
+2023-04-18 17:12:21 INFO 点击元素'('id', 'com.inkr.sport:id/navTitle')'完成
+2023-04-18 17:12:21 INFO 查找元素'(('id', 'com.inkr.sport:id/navTitle'),)'完成
+2023-04-18 17:12:21 INFO 点击元素'('id', 'com.inkr.sport:id/navTitle')'完成
+2023-04-18 17:12:22 INFO 查找元素'(('id', 'com.inkr.sport:id/ivSetting'),)'完成
+2023-04-18 17:12:23 INFO 点击元素'('id', 'com.inkr.sport:id/ivSetting')'完成
+2023-04-18 17:12:23 INFO 查找元素'(('id', 'com.inkr.sport:id/btExitLogin'),)'完成
+2023-04-18 17:12:24 INFO 点击元素'('id', 'com.inkr.sport:id/btExitLogin')'完成
+2023-04-18 17:12:24 INFO 查找元素'(('id', 'com.inkr.sport:id/btConfirm'),)'完成
+2023-04-18 17:12:25 INFO 点击元素'('id', 'com.inkr.sport:id/btConfirm')'完成
+2023-04-18 17:12:25 INFO 退出登录成功
+2023-04-18 17:12:25 INFO 查找元素'(('id', 'com.inkr.sport:id/tvUserName'),)'完成
+2023-04-18 17:12:35 INFO 点击元素'('id', 'com.inkr.sport:id/tvUserName')'完成
+2023-04-18 17:13:06 INFO 查找元素'(('id', 'com.inkr.sport:id/tvAccountLogin'),)'完成
+2023-04-18 17:13:36 INFO 点击元素'('id', 'com.inkr.sport:id/tvAccountLogin')'完成
+2023-04-18 17:15:27 INFO 查找元素'(('id', 'com.inkr.sport:id/etPd'),)'完成
+2023-04-18 17:16:57 INFO 查找元素'(('id', 'com.inkr.sport:id/ivPolicyCheckBox'),)'完成
+2023-04-18 17:17:27 INFO 点击元素'('id', 'com.inkr.sport:id/ivPolicyCheckBox')'完成
+2023-04-18 17:17:58 INFO 查找元素'(('id', 'com.inkr.sport:id/btLogin'),)'完成
+2023-04-18 17:18:18 INFO 点击元素'('id', 'com.inkr.sport:id/btLogin')'完成
+2023-04-18 17:18:18 INFO 登录成功账号:13000000000 密码：abc123456
+2023-04-18 17:18:21 INFO 查找元素'(('id', 'com.inkr.sport:id/ivTbLottery'),)'完成
+2023-04-18 17:18:21 INFO 点击元素'('id', 'com.inkr.sport:id/ivTbLottery')'完成
+2023-04-18 17:18:23 INFO 查找元素'(('id', 'com.inkr.sport:id/ivTbLottery'),)'完成
+2023-04-18 17:18:23 INFO 点击元素'('id', 'com.inkr.sport:id/ivTbLottery')'完成
+2023-04-18 17:18:25 INFO 查找元素'(('id', 'com.inkr.sport:id/tvHitPlan'),)'完成
+2023-04-18 17:18:25 INFO 点击元素'('id', 'com.inkr.sport:id/tvHitPlan')'完成
+2023-04-18 17:18:27 INFO 查找元素'(('xpath', "// *[@resource-id='com.inkr.sport:id/recyclerView']/android.view.ViewGroup[1]/android.view.View[2]"),)'完成
+2023-04-18 17:18:27 INFO 点击元素'('xpath', "// *[@resource-id='com.inkr.sport:id/recyclerView']/android.view.ViewGroup[1]/android.view.View[2]")'完成
+2023-04-18 17:18:47 ERROR 获取元素'(('id', 'com.inkr.sport:id/tvConfirm'),)'失败，原因：Message: 
+Stacktrace:
+NoSuchElementError: An element could not be located on the page using the given search parameters.
+    at AndroidUiautomator2Driver.findElOrEls (E:\Appium-Server-GUI-windows-1.22.3-4\resources\app\node_modules\appium\node_modules\appium-android-driver\lib\commands\find.js:75:11)
+    at runMicrotasks (<anonymous>)
+    at processTicksAndRejections (internal/process/task_queues.js:97:5)
+    at AndroidUiautomator2Driver.findElOrElsWithProcessing (E:\Appium-Server-GUI-windows-1.22.3-4\resources\app\node_modules\appium\node_modules\appium-base-driver\lib\basedriver\commands\find.js:33:12)
+    at AndroidUiautomator2Driver.findElement (E:\Appium-Server-GUI-windows-1.22.3-4\resources\app\node_modules\appium\node_modules\appium-base-driver\lib\basedriver\commands\find.js:53:10)
+2023-04-18 17:18:47 INFO **************用例执行结束**************
+2023-04-18 17:20:18 INFO *********开始启动APP*********
+2023-04-18 17:20:18 INFO 手机参数：{'platformName': 'android', 'platformVersion': '12', 'deviceName': '127.0.0.1:7555', 'automationName': 'UiAutomator2', 'appPackage': 'com.inkr.sport', 'appActivity': 'com.inkr.sport.activities.SplashActivity'}
+2023-04-18 17:20:26 INFO *********启动成功*********
+2023-04-18 17:20:26 INFO **************用例开始执行**************
+2023-04-18 17:20:26 INFO 查找元素'(('id', 'com.inkr.sport:id/tvPopAgreementAgree'),)'完成
+2023-04-18 17:20:26 INFO 点击元素'('id', 'com.inkr.sport:id/tvPopAgreementAgree')'完成
+2023-04-18 17:20:26 INFO 开始左滑
+2023-04-18 17:20:28 INFO 左滑1次
+2023-04-18 17:20:29 INFO 左滑2次
+2023-04-18 17:20:29 INFO 左滑完成
+2023-04-18 17:20:30 INFO 查找元素'(('id', 'com.inkr.sport:id/ivEnterApp'),)'完成
+2023-04-18 17:20:30 INFO 点击元素'('id', 'com.inkr.sport:id/ivEnterApp')'完成
+2023-04-18 17:20:33 INFO 查找元素'(('id', 'com.inkr.sport:id/ivTbMine'),)'完成
+2023-04-18 17:20:34 INFO 点击元素'('id', 'com.inkr.sport:id/ivTbMine')'完成
+2023-04-18 17:20:34 INFO 查找元素'(('id', 'com.inkr.sport:id/tvUserName'),)'完成
+2023-04-18 17:20:44 INFO 点击元素'('id', 'com.inkr.sport:id/tvUserName')'完成
+2023-04-18 17:21:14 INFO 查找元素'(('id', 'com.inkr.sport:id/tvAccountLogin'),)'完成
+2023-04-18 17:21:44 INFO 点击元素'('id', 'com.inkr.sport:id/tvAccountLogin')'完成
+2023-04-18 17:23:35 INFO 查找元素'(('id', 'com.inkr.sport:id/etPd'),)'完成
+2023-04-18 17:25:06 INFO 查找元素'(('id', 'com.inkr.sport:id/ivPolicyCheckBox'),)'完成
+2023-04-18 17:25:36 INFO 点击元素'('id', 'com.inkr.sport:id/ivPolicyCheckBox')'完成
+2023-04-18 17:26:06 INFO 查找元素'(('id', 'com.inkr.sport:id/btLogin'),)'完成
+2023-04-18 17:26:27 INFO 点击元素'('id', 'com.inkr.sport:id/btLogin')'完成
+2023-04-18 17:26:27 INFO 登录成功账号:13000000014 密码：abc123456
+2023-04-18 17:26:29 INFO 查找元素'(('id', 'com.inkr.sport:id/tvUserName'),)'完成
+2023-04-18 17:26:29 INFO 用户信息的value为：体育用户2
+2023-04-18 17:26:29 INFO 查找元素'(('id', 'com.inkr.sport:id/tvExpert'),)'完成
+2023-04-18 17:26:30 INFO 点击元素'('id', 'com.inkr.sport:id/tvExpert')'完成
+2023-04-18 17:26:30 INFO 查找元素'(('id', 'com.inkr.sport:id/tvMenuName'),)'完成
+2023-04-18 17:26:30 INFO 点击元素'('id', 'com.inkr.sport:id/tvMenuName')'完成
+2023-04-18 17:26:31 INFO 查找元素'(('id', 'com.inkr.sport:id/tvNotMind'),)'完成
+2023-04-18 17:26:32 INFO 点击元素'('id', 'com.inkr.sport:id/tvNotMind')'完成
+2023-04-18 17:26:32 INFO 查找元素'(('id', 'com.inkr.sport:id/tvConfirm'),)'完成
+2023-04-18 17:26:32 INFO 点击元素'('id', 'com.inkr.sport:id/tvConfirm')'完成
+2023-04-18 17:26:33 INFO 查找元素'(('id', 'com.inkr.sport:id/tvIKnow'),)'完成
+2023-04-18 17:26:33 INFO 点击元素'('id', 'com.inkr.sport:id/tvIKnow')'完成
+2023-04-18 17:26:33 INFO 查找元素'(('id', 'com.inkr.sport:id/rlAddMatch'),)'完成
+2023-04-18 17:26:33 INFO 点击元素'('id', 'com.inkr.sport:id/rlAddMatch')'完成
+2023-04-18 17:26:36 INFO 查找元素'(('xpath', '//*[@resource-id="com.inkr.sport:id/recyclerView"]/android.view.ViewGroup[2]'),)'完成
+2023-04-18 17:26:37 INFO 点击元素'('xpath', '//*[@resource-id="com.inkr.sport:id/recyclerView"]/android.view.ViewGroup[2]')'完成
+2023-04-18 17:26:37 INFO 查找元素'(('id', 'com.inkr.sport:id/tvDraft'),)'完成
+2023-04-18 17:26:37 INFO 查找元素'(('xpath', "//*[@text='胜负过关']"),)'完成
+2023-04-18 17:26:38 INFO 点击元素'('xpath', "//*[@text='胜负过关']")'完成
+2023-04-18 17:26:38 INFO 选择的玩法类型：北单，选择了第1场比赛，选择的玩法方式：胜负过关
+2023-04-18 17:26:38 ERROR 获取第三个元素失败，原因list index out of range，默认选择第一个推荐结果
+2023-04-18 17:26:38 INFO 不能选择主推次推1
+2023-04-18 17:26:38 INFO 查找元素'(('id', 'com.inkr.sport:id/firstItem'),)'完成
+2023-04-18 17:26:38 INFO 点击元素'('id', 'com.inkr.sport:id/firstItem')'完成
+2023-04-18 17:26:38 INFO 不选择其他玩法
+2023-04-18 17:26:39 INFO 查找元素'(('xpath', '//*[@resource-id ="com.inkr.sport:id/glPrice"]/android.view.ViewGroup[2]'),)'完成
+2023-04-18 17:26:39 INFO 点击元素'('xpath', '//*[@resource-id ="com.inkr.sport:id/glPrice"]/android.view.ViewGroup[2]')'完成
+2023-04-18 17:26:39 INFO 开始上滑
+2023-04-18 17:26:39 INFO 上滑完成
+2023-04-18 17:26:39 INFO 不选择促销信息
+2023-04-18 17:26:40 INFO 查找元素'现金红包'完成
+2023-04-18 17:26:40 INFO 点击元素'现金红包'完成
+2023-04-18 17:26:40 INFO 查找元素'(('id', 'com.inkr.sport:id/tvSelectGoods'),)'完成
+2023-04-18 17:26:42 INFO 点击元素'('id', 'com.inkr.sport:id/tvSelectGoods')'完成
+2023-04-18 17:26:42 INFO 点击元素'('id', 'com.inkr.sport:id/ivAward')'完成
+2023-04-18 17:26:42 INFO 查找元素'(('id', 'com.inkr.sport:id/tvAllNum'),)'完成
+2023-04-18 17:26:42 INFO 点击元素'('id', 'com.inkr.sport:id/tvAllNum')'完成
+2023-04-18 17:26:43 INFO 查找元素'(('id', 'com.inkr.sport:id/tvTitle'),)'完成
+2023-04-18 17:26:44 INFO 点击元素'('id', 'com.inkr.sport:id/tvTitle')'完成
+2023-04-18 17:26:44 INFO 查找元素'(('id', 'com.inkr.sport:id/etContent'),)'完成
+2023-04-18 17:26:45 INFO 查找元素'(('id', 'com.inkr.sport:id/tvConfirm'),)'完成
+2023-04-18 17:26:45 INFO 点击元素'('id', 'com.inkr.sport:id/tvConfirm')'完成
+2023-04-18 17:26:46 INFO 查找元素'(('id', 'com.inkr.sport:id/tvRecommend'),)'完成
+2023-04-18 17:26:47 INFO 点击元素'('id', 'com.inkr.sport:id/tvRecommend')'完成
+2023-04-18 17:26:47 INFO 查找元素'(('id', 'com.inkr.sport:id/etContent'),)'完成
+2023-04-18 17:26:48 INFO 查找元素'(('id', 'com.inkr.sport:id/tvConfirm'),)'完成
+2023-04-18 17:26:48 INFO 点击元素'('id', 'com.inkr.sport:id/tvConfirm')'完成
+2023-04-18 17:26:49 INFO 查找元素'(('id', 'com.inkr.sport:id/tvContent'),)'完成
+2023-04-18 17:26:49 INFO 点击元素'('id', 'com.inkr.sport:id/tvContent')'完成
+2023-04-18 17:26:49 INFO 查找元素'(('id', 'com.inkr.sport:id/etContent'),)'完成
+2023-04-18 17:26:51 INFO 查找元素'(('id', 'com.inkr.sport:id/tvConfirm'),)'完成
+2023-04-18 17:26:51 INFO 点击元素'('id', 'com.inkr.sport:id/tvConfirm')'完成
+2023-04-18 17:26:51 INFO 查找元素'(('id', 'com.inkr.sport:id/tvPublish'),)'完成
+2023-04-18 17:26:52 INFO 点击元素'('id', 'com.inkr.sport:id/tvPublish')'完成
+2023-04-18 17:26:52 INFO 查找元素'(('id', 'com.inkr.sport:id/tvPublish'),)'完成
+2023-04-18 17:26:53 INFO 点击元素'('id', 'com.inkr.sport:id/tvPublish')'完成
+2023-04-18 17:26:53 INFO 发布方案成功
+2023-04-18 17:26:53 INFO 查找元素'(('id', 'com.inkr.sport:id/tvPublishSuccess'),)'完成
+2023-04-18 17:26:53 INFO 用户信息的value为：发布成功
+2023-04-18 17:26:53 INFO 查找元素'(('id', 'com.inkr.sport:id/tvPublishSuccess'),)'完成
+2023-04-18 17:26:53 INFO 用户信息的value为：发布成功
+2023-04-18 17:26:53 INFO 查找元素'(('id', 'com.inkr.sport:id/tvConfirm'),)'完成
+2023-04-18 17:26:53 INFO 点击元素'('id', 'com.inkr.sport:id/tvConfirm')'完成
+2023-04-18 17:26:54 INFO 查找元素'(('id', 'com.inkr.sport:id/navTitle'),)'完成
+2023-04-18 17:26:55 INFO 点击元素'('id', 'com.inkr.sport:id/navTitle')'完成
+2023-04-18 17:26:55 INFO 查找元素'(('id', 'com.inkr.sport:id/navTitle'),)'完成
+2023-04-18 17:26:55 INFO 点击元素'('id', 'com.inkr.sport:id/navTitle')'完成
+2023-04-18 17:26:56 INFO 查找元素'(('id', 'com.inkr.sport:id/ivSetting'),)'完成
+2023-04-18 17:26:56 INFO 点击元素'('id', 'com.inkr.sport:id/ivSetting')'完成
+2023-04-18 17:26:57 INFO 查找元素'(('id', 'com.inkr.sport:id/btExitLogin'),)'完成
+2023-04-18 17:26:58 INFO 点击元素'('id', 'com.inkr.sport:id/btExitLogin')'完成
+2023-04-18 17:26:58 INFO 查找元素'(('id', 'com.inkr.sport:id/btConfirm'),)'完成
+2023-04-18 17:26:59 INFO 点击元素'('id', 'com.inkr.sport:id/btConfirm')'完成
+2023-04-18 17:26:59 INFO 退出登录成功
+2023-04-18 17:26:59 INFO 查找元素'(('id', 'com.inkr.sport:id/tvUserName'),)'完成
+2023-04-18 17:26:59 INFO 点击元素'('id', 'com.inkr.sport:id/tvUserName')'完成
+2023-04-18 17:27:29 INFO 查找元素'(('id', 'com.inkr.sport:id/tvAccountLogin'),)'完成
+2023-04-18 17:28:00 INFO 点击元素'('id', 'com.inkr.sport:id/tvAccountLogin')'完成
+2023-04-18 17:29:50 INFO 查找元素'(('id', 'com.inkr.sport:id/etPd'),)'完成
+2023-04-18 17:31:21 INFO 查找元素'(('id', 'com.inkr.sport:id/ivPolicyCheckBox'),)'完成
+2023-04-18 17:31:51 INFO 点击元素'('id', 'com.inkr.sport:id/ivPolicyCheckBox')'完成
+2023-04-18 17:32:21 INFO 查找元素'(('id', 'com.inkr.sport:id/btLogin'),)'完成
+2023-04-18 17:32:42 INFO 点击元素'('id', 'com.inkr.sport:id/btLogin')'完成
+2023-04-18 17:32:42 INFO 登录成功账号:13000000000 密码：abc123456
+2023-04-18 17:32:44 INFO 查找元素'(('id', 'com.inkr.sport:id/ivTbLottery'),)'完成
+2023-04-18 17:32:44 INFO 点击元素'('id', 'com.inkr.sport:id/ivTbLottery')'完成
+2023-04-18 17:32:46 INFO 查找元素'(('id', 'com.inkr.sport:id/ivTbLottery'),)'完成
+2023-04-18 17:32:46 INFO 点击元素'('id', 'com.inkr.sport:id/ivTbLottery')'完成
+2023-04-18 17:32:48 INFO 查找元素'(('id', 'com.inkr.sport:id/tvHitPlan'),)'完成
+2023-04-18 17:32:48 INFO 点击元素'('id', 'com.inkr.sport:id/tvHitPlan')'完成
+2023-04-18 17:32:51 INFO 查找元素'(('xpath', "// *[@resource-id='com.inkr.sport:id/recyclerView']/android.view.ViewGroup[1]/android.view.View[2]"),)'完成
+2023-04-18 17:32:51 INFO 点击元素'('xpath', "// *[@resource-id='com.inkr.sport:id/recyclerView']/android.view.ViewGroup[1]/android.view.View[2]")'完成
+2023-04-18 17:32:52 INFO 查找元素'(('id', 'com.inkr.sport:id/tvIKnow'),)'完成
+2023-04-18 17:32:52 INFO 点击元素'('id', 'com.inkr.sport:id/tvIKnow')'完成
+2023-04-18 17:32:52 INFO 查找元素'(('id', 'com.inkr.sport:id/tvConfirm'),)'完成
+2023-04-18 17:32:53 INFO 点击元素'('id', 'com.inkr.sport:id/tvConfirm')'完成
+2023-04-18 17:33:13 ERROR 获取元素'(('id', 'com.inkr.sport:id/tvPayNow'),)'失败，原因：Message: 
+Stacktrace:
+NoSuchElementError: An element could not be located on the page using the given search parameters.
+    at AndroidUiautomator2Driver.findElOrEls (E:\Appium-Server-GUI-windows-1.22.3-4\resources\app\node_modules\appium\node_modules\appium-android-driver\lib\commands\find.js:75:11)
+    at runMicrotasks (<anonymous>)
+    at processTicksAndRejections (internal/process/task_queues.js:97:5)
+    at AndroidUiautomator2Driver.findElOrElsWithProcessing (E:\Appium-Server-GUI-windows-1.22.3-4\resources\app\node_modules\appium\node_modules\appium-base-driver\lib\basedriver\commands\find.js:33:12)
+    at AndroidUiautomator2Driver.findElement (E:\Appium-Server-GUI-windows-1.22.3-4\resources\app\node_modules\appium\node_modules\appium-base-driver\lib\basedriver\commands\find.js:53:10)
+2023-04-18 17:33:14 INFO **************用例执行结束**************
+2023-04-18 17:50:32 INFO *********开始启动APP*********
+2023-04-18 17:50:32 INFO 手机参数：{'platformName': 'android', 'platformVersion': '12', 'deviceName': '127.0.0.1:7555', 'automationName': 'UiAutomator2', 'appPackage': 'com.inkr.sport', 'appActivity': 'com.inkr.sport.activities.SplashActivity'}
+2023-04-18 17:50:40 INFO *********启动成功*********
+2023-04-18 17:50:40 INFO **************用例开始执行**************
+2023-04-18 17:50:40 INFO 查找元素'(('id', 'com.inkr.sport:id/tvPopAgreementAgree'),)'完成
+2023-04-18 17:50:40 INFO 点击元素'('id', 'com.inkr.sport:id/tvPopAgreementAgree')'完成
+2023-04-18 17:50:40 INFO 开始左滑
+2023-04-18 17:50:42 INFO 左滑1次
+2023-04-18 17:50:43 INFO 左滑2次
+2023-04-18 17:50:43 INFO 左滑完成
+2023-04-18 17:50:44 INFO 查找元素'(('id', 'com.inkr.sport:id/ivEnterApp'),)'完成
+2023-04-18 17:50:44 INFO 点击元素'('id', 'com.inkr.sport:id/ivEnterApp')'完成
+2023-04-18 17:50:47 INFO 查找元素'(('id', 'com.inkr.sport:id/ivTbMine'),)'完成
+2023-04-18 17:50:48 INFO 点击元素'('id', 'com.inkr.sport:id/ivTbMine')'完成
+2023-04-18 17:50:48 INFO 查找元素'(('id', 'com.inkr.sport:id/tvUserName'),)'完成
+2023-04-18 17:50:48 INFO 点击元素'('id', 'com.inkr.sport:id/tvUserName')'完成
+2023-04-18 17:51:18 INFO 查找元素'(('id', 'com.inkr.sport:id/tvAccountLogin'),)'完成
+2023-04-18 17:51:48 INFO 点击元素'('id', 'com.inkr.sport:id/tvAccountLogin')'完成
+2023-04-18 17:53:39 INFO 查找元素'(('id', 'com.inkr.sport:id/etPd'),)'完成
+2023-04-18 17:55:09 INFO 查找元素'(('id', 'com.inkr.sport:id/ivPolicyCheckBox'),)'完成
+2023-04-18 17:55:40 INFO 点击元素'('id', 'com.inkr.sport:id/ivPolicyCheckBox')'完成
+2023-04-18 17:56:10 INFO 查找元素'(('id', 'com.inkr.sport:id/btLogin'),)'完成
+2023-04-18 17:56:30 INFO 点击元素'('id', 'com.inkr.sport:id/btLogin')'完成
+2023-04-18 17:56:30 INFO 登录成功账号:13000000014 密码：abc123456
+2023-04-18 17:56:32 INFO 查找元素'(('id', 'com.inkr.sport:id/tvUserName'),)'完成
+2023-04-18 17:56:32 INFO 用户信息的value为：体育用户2
+2023-04-18 17:56:32 INFO 查找元素'(('id', 'com.inkr.sport:id/tvUserName'),)'完成
+2023-04-18 17:56:33 INFO 点击元素'('id', 'com.inkr.sport:id/tvUserName')'完成
+2023-04-18 17:56:53 ERROR 获取元素'(('id', 'com.inkr.sport:id/tvAccountLogin'),)'失败，原因：Message: 
+Stacktrace:
+NoSuchElementError: An element could not be located on the page using the given search parameters.
+    at AndroidUiautomator2Driver.findElOrEls (E:\Appium-Server-GUI-windows-1.22.3-4\resources\app\node_modules\appium\node_modules\appium-android-driver\lib\commands\find.js:75:11)
+    at runMicrotasks (<anonymous>)
+    at processTicksAndRejections (internal/process/task_queues.js:97:5)
+    at AndroidUiautomator2Driver.findElOrElsWithProcessing (E:\Appium-Server-GUI-windows-1.22.3-4\resources\app\node_modules\appium\node_modules\appium-base-driver\lib\basedriver\commands\find.js:33:12)
+    at AndroidUiautomator2Driver.findElement (E:\Appium-Server-GUI-windows-1.22.3-4\resources\app\node_modules\appium\node_modules\appium-base-driver\lib\basedriver\commands\find.js:53:10)
+2023-04-18 17:56:53 INFO **************用例执行结束**************
