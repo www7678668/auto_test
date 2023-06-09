@@ -6,4 +6,3 @@ config_path = os.path.join(current_path, "Config")  # Config的路径
 Log_path = os.path.join(current_path, "Log")  # Log的路径
 report_path = os.path.join(current_path, "Report")
 
-print(report_path)

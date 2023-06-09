@@ -4,9 +4,12 @@
 # @File : tes
 # t_case_my_page.py
 #
-import pytest, os, sys
+import  os, sys
 sys.path.append((os.path.abspath(os.path.join(os.path.dirname(__file__), '../'))))
+sys.path.append("C:\\Users\\Administrator\\AppData\\Roaming\\Python\\Python37\\site-packages")
 
+
+import pytest
 print((os.path.abspath(os.path.join(os.path.dirname(__file__)))))
 from Common.desired_cap import DesiredCap
 from Common.AllPath import *
