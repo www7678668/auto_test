@@ -6,8 +6,7 @@
 #
 import pytest, os, sys
 sys.path.append((os.path.abspath(os.path.join(os.path.dirname(__file__), '../'))))
-
-print((os.path.abspath(os.path.join(os.path.dirname(__file__)))))
+sys.path.append("C:\\Users\\Administrator\\AppData\\Roaming\\Python\\Python37\\site-packages")
 from Common.desired_cap import DesiredCap
 from Common.AllPath import *
 from PageObject.my_page import MyPage
